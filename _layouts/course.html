@@ -1,0 +1,91 @@
+---
+layout: page
+header: no
+breadcrumb: true
+print_title: false
+---
+{% assign pagename = page.name | split: "." %}
+{% assign course_wrap = site.data.courses | where: 'ref', pagename[0]  %}
+{% assign course = course_wrap[0]%}
+<div class= "row"><h1>{{course.name}}</h1></div>
+
+
+{% for module in site.data.modules %}
+{% if course.module contains module.code %}
+{% assign currMod = module %}
+{% endif%}
+{% endfor %}
+
+{% if course.group contains 'regular' %}
+
+<div class= "row">Module: <i>{{currMod.name}} ({{currMod.code}})</i></div>
+{% endif %}
+
+<hr>
+<div class="row">{{course.short}}</div>
+{% if course.more %}<br><div class="row">{{course.more}}</div> {% endif %}
+
+<div class="row">
+<h4>Lead instructor</h4>
+{% for person in site.data.people %}
+{% if course.administrator contains person.short %}
+<a href="{{site.url}}{{site.baseurl}}/people/instructors/{{person.short}}/">
+{{ person.first }} {{ person.last }}
+</a>
+{% endif %}
+{% endfor %}
+</div>
+
+<div class="row">
+<h4>Instructors</h4>
+{% for inst in course.instructors %}
+{% assign outer_forloop = forloop %}
+{% for person in site.data.people %}
+{% if inst contains person.short%}
+<a href="{{site.url}}{{site.baseurl}}/people/instructors/{{person.short}}/">
+{{ person.first }} {{ person.last }} 
+</a>
+{% unless outer_forloop.last %}, {% endunless %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+
+{% if course.material %}
+<div class="row">
+<h4>Material</h4>{{course.material}}
+</div>
+{% endif %}
+<div class="row">
+<h4>Form</h4>{{course.form}}
+</div>
+
+<div class="row">
+<h4>Credits</h4>{{course.ects}} ECTS
+</div>
+
+<div class="row">
+<h4>Type</h4>
+{% for type in course.group %}
+{% if type contains 'regular'%} Regular course  {% endif %}
+{% if type contains 'key'%} Key qualification {% endif %}
+{% if type contains 'wahl'%} Interdisciplinary elective {% endif %}
+{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</div>
+
+{% if course.evaluation %}
+<div class="row">
+<h4>Evaluation</h4>{{course.evaluation}}
+</div>
+{% endif %}
+
+<br>
+{% if course.note %}
+<p style="color:red"><i >{{course.note}}</i></p>
+{% endif %}
+
+<br>
+
+
+<div class="row"><i>See course details on <a href="{{course.campo}}">Campo.</a> Register on <a href="{{course.studon}}">StudOn</a>.</i></div>

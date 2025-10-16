@@ -1,0 +1,75 @@
+- code: "PB-V1"
+  name: "Consolidation of Basics I"
+  subject: "Paleobiology major"
+  responsible: warnock
+
+- code: "PB-V2"
+  name: "Consolidation of Basics II"
+  subject: "Paleobiology major"
+  responsible: warnock
+
+- code: "PB-E1"
+  name: "Paleoenvironments"
+  subject: "Paleobiology major"
+  responsible: munnecke
+
+- code: "PB-V3"
+  name: "Macroevolution"
+  subject: "Paleobiology major"
+  responsible: kiessling 
+
+- code: "PB-V4"
+  name: "Phylogenetics"
+  subject: "Paleobiology major"
+  responsible: warnock 
+
+- code: "PB-E2"
+  name: "Analytical Paleobiology"
+  subject: "Paleobiology major"
+  responsible: kiessling 
+
+- code: "PB-F1"
+  name: "Macroecology"
+  subject: "Paleobiology major"
+  responsible: kocsis
+
+- code: "PB-F2"
+  name: "Microfacies analysis and diagenesis of carbonate rocks"
+  subject: "Paleobiology major"
+  responsible: munnecke
+
+- code: "PB-F3"
+  name: "Reef System Research"
+  subject: "Paleobiology major"
+  responsible: kiessling 
+
+- code: "CE-V1"
+  name: "Sedimentary geochemistry (AS-F2)"
+  subject: "Climate and Earth Systems minor"
+  responsible: joachimski 
+
+- code: "CE-V2"
+  name: "Climate and Earth System Methods I"
+  subject: "Climate and Earth Systems minor"
+  responsible: kocsis
+
+- code: "CE-V3"
+  name: "Climate and Earth System Methods II"
+  subject: "Climate and Earth Systems minor"
+  responsible: warnock
+
+- code: "CE-V4"
+  name: "Climate and Earth System Research Lab I"
+  subject: "Climate and Earth Systems minor"
+  responsible: kocsis
+
+- code: "CE-F1"
+  name: "Science Communication"
+  subject: "Climate and Earth Systems minor"
+  responsible: warnock
+
+- code: "CE-F2"
+  name: "Climate and Earth Systems Research Lab II"
+  subject: "Climate and Earth Systems minor"
+  responsible: warnock
+

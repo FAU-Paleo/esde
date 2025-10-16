@@ -1,0 +1,26 @@
+- title: "About"
+  url: "/about/erlangen_and_the_FAU/"
+  side: right
+  dropdown:
+  - title: "Erlangen and The FAU"
+    url: "/about/erlangen_and_the_FAU/"
+  - title: "Our Science"
+    url: "/about/our_science/"
+
+- title: "The Program"
+  url: "/program/outline/"
+  side: right
+  dropdown:
+  - title: "Outline"
+    url: "/program/outline/"
+  - title: "Highlights"
+    url: "/program/highlights/"
+  - title: "Career Perspectives"
+    url: "/program/perspectives/"
+
+- title: "Admissions"
+  url: "/admission/"
+  side: right
+  dropdown:
+  - title: "Requirements"
+    url: "/admission/requirements/"

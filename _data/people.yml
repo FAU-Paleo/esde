@@ -1,0 +1,19 @@
+
+- short: kocsis
+  first: Adam
+  last: Kocsis
+  country: Hungary
+  formal: Dr. Adam Kocsis
+  roles:
+    instructor: regular
+  position: Akademischer Rat (Assistant professor)
+  thumbnail: "images/people/large/adam.jpg"
+  contacts:
+    email: adam.kocsis@fau.de
+    official: 'https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis'
+    twitter: atkocsis
+    github: adamkocsis
+    scholar: 'https://scholar.google.com/citations?user=SsIbq1MAAAAJ'
+    researchgate: 'Adam-Kocsis-3'
+    orcid: '0000-0002-9028-665X'
+  statement: 'Adam’s primary interest is in global spatial patterns of biodiversity dynamics, simulation models, software and database development. He is a true computer nerd and likes to spend time with music, cycling around and reading books about the mysteries of the human mind.'
