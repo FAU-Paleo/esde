@@ -43,7 +43,7 @@ homepage: true
 
 <div class="row">
 <div class="columns" markdown="1">
-This International Masters (MSc) program at [FAU]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau) is for students... **Some text is needed here.**
+This International Master's (MSc) program at [FAU]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau) is for students... **Some text is needed here.**
 </div>
 <div class="medium-6 large-6 columns">
 
