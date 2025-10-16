@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
-<xsl:output method="html" encoding="utf-8" />
-<xsl:template match="/atom:feed">
-	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
-	<html>
-	<head>
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		<meta charset="utf-8">
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Atom Feed (Styled)</title>
+	<title>Dr. Adam Kocsis</title>
 
     <link rel="stylesheet" type="text/css" href="https://fau-paleo.github.io/esde/assets/css/styles_feeling_responsive.css">
 
@@ -26,13 +21,13 @@
 	
 	
 	
-	<link rel="canonical" href="https://fau-paleo.github.io/esde/assets/xslt/atom.xslt">
+	<link rel="canonical" href="https://fau-paleo.github.io/esde/people/instructors/kocsis/">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Atom Feed (Styled)">
+	<meta property="og:title" content="Dr. Adam Kocsis">
 	<meta property="og:description" content="Friedrich-Alexander-Universität Erlangen-Nürnberg, GeoZentrum Nordbayern, Loewenichstr. 28 91054 Erlangen">
-	<meta property="og:url" content="https://fau-paleo.github.io/esde/assets/xslt/atom.xslt">
+	<meta property="og:url" content="https://fau-paleo.github.io/esde/people/instructors/kocsis/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="FAU ESDE MSc">
@@ -45,7 +40,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="PalaeoFAU">
 	<meta name="twitter:creator" content="PalaeoFAU">
-	<meta name="twitter:title" content="Atom Feed (Styled)">
+	<meta name="twitter:title" content="Dr. Adam Kocsis">
 	<meta name="twitter:description" content="International Master's in Paleobiology, FAU Erlangen-Nürnberg">
 	<meta name="twitter:image" content="https://fau-paleo.github.io/esde/twitter_card_summer.png">
 	
@@ -87,11 +82,84 @@
 	
 
 
-		]]></xsl:text>
-	</head>
-	<body id="top-of-page">
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		
+</head>
+<body id="top-of-page" class="post">
+	
+	<style>
+  fau-bar-element {font-size: .875rem; color:#444; font-family:Roboto; font-weight:normal}
+  fau-bar-element:hover {text-decoration:underline;}
+</style>
+
+<div id="faubar" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar style="background-color:#e9edf2">
+    <section class="top-bar-section"  >
+
+      <ul class="left" >
+		<li><a href="https://fau.eu"  style="background-color:#e9edf2">
+			<img
+			  src="https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-01.svg" style="height:31px;border-radius=0%"
+			  onmouseover="this.src='https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-02.svg'"
+			  onmouseout="this.src='https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-01.svg'"
+			  alt="To FAU main page."
+			>
+		 </a>
+		</li>
+		<li ><a href="https://karte.fau.de/api/v1/iframe/marker/49.59799646658211,11.018187403678894/zoom/16#18/49.59734/11.01731"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>Map</fau-bar-element>
+		 </a>
+		</li>
+		<li ><a href="https://www.campo.fau.eu/"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>Campo</fau-bar-element>
+		 </a>
+		</li>
+		<li ><a href="https://www.studon.fau.de/"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>StudOn</fau-bar-element>
+		 </a>
+		</li>
+      </ul>
+
+      <ul class="right">
+		<li ><a href="https://gzn.nat.fau.eu"  style="background-color:#e9edf2">
+			<img
+			  src="https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-01.svg"
+			  onmouseover="this.src='https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-02.svg'"
+			  onmouseout="this.src='https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-01.svg'"
+			  style="height:38px">
+		 </a>
+		</li>
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+<div id="faupath" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar style="background-color:#fdfdfd;height:38px">
+    <section class="top-bar-section"  >
+
+      <ul class="left" >
+		<li><a href="https://fau.eu" style="padding-right:0px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Friedrich-Alexander-Universität /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://nat.fau.eu" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Faculty of Science /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://geo.nat.fau.de" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Department of Geography and Geosciences /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://gzn.nat.fau.eu" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>GeoZentrum Nordbayern</fau-bar-element>
+		 </a>
+		</li>
+      </ul>
+
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
 <div id="navigation" class="sticky" style="padding-bottom:15px;padding-top:15px">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
@@ -248,77 +316,225 @@
   </nav>
 </div><!-- /#navigation -->
 
+	
+
+	
+
+
+
+
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="https://fau-paleo.github.io/esde/">Home</a>
+ 
+   
+    
+        <a href="https://fau-paleo.github.io/esde/people/">people</a>
+    
+  
+    
+        <a href="https://fau-paleo.github.io/esde/people/instructors/">instructors</a>
+    
+  
+    
+        <a class="current">Dr. Adam Kocsis</a>
+    
+  
+</nav>
+
+
+
+
+
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					
+					<h1>Dr. Adam Kocsis</h1> 
+				</div>
+			</header>
+
+
+			
+
+			<div itemprop="articleSection">
+			
+
+
+
+
+
+
+
+
+
+<a href="https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis">
+	<i>Akademischer Rat (Assistant professor)</i>
+</a> - <i>from Hungary 🇭🇺</i>
+
+<div class="row" style="margin-top:15px">
+
+	<a href="https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis">
+	<div class="large-6 columns">
+	  
+	  <img src="https://fau-paleo.github.io/esde/images/people/large/adam.jpg" >
+	  
+	</div>
+	</a>
+
+	<div class="large-6 columns">
+	Adam’s primary interest is in global spatial patterns of biodiversity dynamics, simulation models, software and database development. He is a true computer nerd and likes to spend time with music, cycling around and reading books about the mysteries of the human mind.
+
+	<h4>Contacts</h4>
+	<div>
+	  <img src="https://fau-paleo.github.io/esde/images/logos/email.png" width="20" height="20" >
+		Email:
 		
-
-<div id="masthead-no-image-header">
-	<div class="row">
-		<div class="small-12 columns">
-			<a id="logo" href="https://fau-paleo.github.io/esde/" title="FAU ESDE MSc – Master's in Evolution of System Dynamics">
-				<img src="https://fau-paleo.github.io/esde/assets/img/FAU_Paleobiology_summer.png" alt="FAU ESDE MSc – Master's in Evolution of System Dynamics">
-			</a>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-</div><!-- /#masthead -->
-
-
-
-
-
-
-
-
-
 		
+		<i>adam.kocsis</i><img src="https://fau-paleo.github.io/esde/images/misc/at.png" height="20px" width="15px"><i>fau.de</i>
+	</div>
+	
+	<div>
+	  <a href="https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis">
+	  <img src="https://fau-paleo.github.io/esde/images/logos/institute.png" width="20" height="20" >
+	  Institutional webpage
+	  </a>
+	</div>
+	
+
+	
+	<div>
+	  <a href="https://orcid.org/0000-0002-9028-665X">
+	  <img src="https://fau-paleo.github.io/esde/images/logos/ORCID.png" width="18" height="18" >
+	  ORCID: <i>0000-0002-9028-665X</i>
+	  </a>
+	</div>
+	
+
+	
+	<div>
+	  <a href="https://scholar.google.com/citations?user=SsIbq1MAAAAJ">
+	  <img src="https://fau-paleo.github.io/esde/images/logos/scholar.png" width="20" height="20" >
+	  Google Scholar 
+	  </a>
+	</div>
+	
+
+	
+	
+	<div>
+	  <a href="https://www.researchgate.net/profile/Adam-Kocsis-3">
+	  <img src="https://fau-paleo.github.io/esde/images/logos/researchgate.png" width="20" height="20" >
+	  ResearchGate
+	  </a>
+	</div>
+	
+
+	
+	<div>
+	  <a href="https://www.x.com/atkocsis">
+	  <img src="https://fau-paleo.github.io/esde/images/logos/X_twitter.png" width="20" height="20" >
+	  <i>@atkocsis</i>
+	  </a>
+	</div>
+	
 
 
-<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">Atom feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
+	
+	<div>
+	  <a href="https://www.github.com/adamkocsis">
+	  <img src="https://fau-paleo.github.io/esde/images/logos/github.png" width="20" height="20" >
+	  GitHub: <i>adamkocsis</i>
+	  </a>
+	</div>
+	
+	</div>
+
+
+</div>
+
+<div class="row" style="margin-top:15px">
 </div>
 
 
 
-		]]></xsl:text>
-		<header class="t30 row">
-	<p class="subheadline"><xsl:value-of select="atom:subtitle" disable-output-escaping="yes" /></p>
-	<h1>
-		<xsl:element name="a">
-			<xsl:attribute name="href">
-				<xsl:value-of select="atom:id" />
-			</xsl:attribute>
-			<xsl:value-of select="atom:title" />
-		</xsl:element>
-	</h1>
-</header>
-<ul class="accordion row" data-accordion="">
-	<xsl:for-each select="atom:entry">
-		<li class="accordion-navigation">
-			<xsl:variable name="slug-id">
-				<xsl:call-template name="slugify">
-					<xsl:with-param name="text" select="atom:id" />
-				</xsl:call-template>
-			</xsl:variable>
-			<xsl:element name="a">
-				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
-				<xsl:value-of select="atom:title"/>
-				<br/>
-				<small><xsl:value-of select="atom:updated"/></small>
-			</xsl:element>
-			<xsl:element name="div">
-				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
-				<xsl:attribute name="class">content</xsl:attribute>
-				<h1>
-					<xsl:element name="a">
-						<xsl:attribute name="href"><xsl:value-of select="atom:id"/></xsl:attribute>
-						<xsl:value-of select="atom:title"/>
-					</xsl:element>
-				</h1>
-				<xsl:value-of select="atom:content" disable-output-escaping="yes" />
-			</xsl:element>
-		</li>
-	</xsl:for-each>
+
+
+
+
+<div class="row" style="margin-top:15px">
+<!-- Pre-print everything -->
+
+
+
+<!-- Print, if there is anything -->
+
+
+<h4>Courses administered </h4>
+<ul>
+
+
+
+<li>
+<a href="https://fau-paleo.github.io/esde/program/courses/earth_data">Climate and Earth System Data</a>
+</li>
+
+
+
 </ul>
 
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		
+</div>
+
+
+
+
+<div class="row" >
+  <h4>Adam teaches in </h4>
+
+<!-- Make an array from taught courses -->
+
+
+
+
+  
+<!-- display relevant -->
+
+
+
+
+
+<a href="https://fau-paleo.github.io/esde/program/courses/earth_data">Climate and Earth System Data</a>
+
+
+
+
+
+  
+</div>
+
+
+
+			</div>
+
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	
     <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
@@ -366,7 +582,9 @@
       </div>
     </footer>
 
-		
+	
+
+	
 
 
 <script src="https://fau-paleo.github.io/esde/assets/js/javascript.min.js"></script>
@@ -382,18 +600,6 @@
 
 
 
-		]]></xsl:text>
-	</body>
-	</html>
-</xsl:template>
-<xsl:template name="slugify">
-	<xsl:param name="text" select="''" />
-	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
-	<xsl:variable name="replacementChar" select="'-----------------'" />
-	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
-	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
-	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
-	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
-	<xsl:value-of select="$escaped" />
-</xsl:template>
-</xsl:stylesheet>
+</body>
+</html>
+

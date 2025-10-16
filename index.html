@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
-<xsl:output method="html" encoding="utf-8" />
-<xsl:template match="/atom:feed">
-	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
-	<html>
-	<head>
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		<meta charset="utf-8">
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Atom Feed (Styled)</title>
+	<title>FAU ESDE MSc</title>
 
     <link rel="stylesheet" type="text/css" href="https://fau-paleo.github.io/esde/assets/css/styles_feeling_responsive.css">
 
@@ -26,13 +21,13 @@
 	
 	
 	
-	<link rel="canonical" href="https://fau-paleo.github.io/esde/assets/xslt/atom.xslt">
+	<link rel="canonical" href="https://fau-paleo.github.io/esde/index.html">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Atom Feed (Styled)">
+	<meta property="og:title" content="FAU ESDE MSc">
 	<meta property="og:description" content="Friedrich-Alexander-Universität Erlangen-Nürnberg, GeoZentrum Nordbayern, Loewenichstr. 28 91054 Erlangen">
-	<meta property="og:url" content="https://fau-paleo.github.io/esde/assets/xslt/atom.xslt">
+	<meta property="og:url" content="https://fau-paleo.github.io/esde/index.html">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="FAU ESDE MSc">
@@ -45,7 +40,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="PalaeoFAU">
 	<meta name="twitter:creator" content="PalaeoFAU">
-	<meta name="twitter:title" content="Atom Feed (Styled)">
+	<meta name="twitter:title" content="FAU ESDE MSc">
 	<meta name="twitter:description" content="International Master's in Paleobiology, FAU Erlangen-Nürnberg">
 	<meta name="twitter:image" content="https://fau-paleo.github.io/esde/twitter_card_summer.png">
 	
@@ -87,11 +82,84 @@
 	
 
 
-		]]></xsl:text>
-	</head>
-	<body id="top-of-page">
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		
+</head>
+<body id="top-of-page" class="frontpage">
+	
+	<style>
+  fau-bar-element {font-size: .875rem; color:#444; font-family:Roboto; font-weight:normal}
+  fau-bar-element:hover {text-decoration:underline;}
+</style>
+
+<div id="faubar" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar style="background-color:#e9edf2">
+    <section class="top-bar-section"  >
+
+      <ul class="left" >
+		<li><a href="https://fau.eu"  style="background-color:#e9edf2">
+			<img
+			  src="https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-01.svg" style="height:31px;border-radius=0%"
+			  onmouseover="this.src='https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-02.svg'"
+			  onmouseout="this.src='https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-01.svg'"
+			  alt="To FAU main page."
+			>
+		 </a>
+		</li>
+		<li ><a href="https://karte.fau.de/api/v1/iframe/marker/49.59799646658211,11.018187403678894/zoom/16#18/49.59734/11.01731"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>Map</fau-bar-element>
+		 </a>
+		</li>
+		<li ><a href="https://www.campo.fau.eu/"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>Campo</fau-bar-element>
+		 </a>
+		</li>
+		<li ><a href="https://www.studon.fau.de/"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>StudOn</fau-bar-element>
+		 </a>
+		</li>
+      </ul>
+
+      <ul class="right">
+		<li ><a href="https://gzn.nat.fau.eu"  style="background-color:#e9edf2">
+			<img
+			  src="https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-01.svg"
+			  onmouseover="this.src='https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-02.svg'"
+			  onmouseout="this.src='https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-01.svg'"
+			  style="height:38px">
+		 </a>
+		</li>
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+<div id="faupath" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar style="background-color:#fdfdfd;height:38px">
+    <section class="top-bar-section"  >
+
+      <ul class="left" >
+		<li><a href="https://fau.eu" style="padding-right:0px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Friedrich-Alexander-Universität /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://nat.fau.eu" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Faculty of Science /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://geo.nat.fau.de" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Department of Geography and Geosciences /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://gzn.nat.fau.eu" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>GeoZentrum Nordbayern</fau-bar-element>
+		 </a>
+		</li>
+      </ul>
+
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
 <div id="navigation" class="sticky" style="padding-bottom:15px;padding-top:15px">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
@@ -248,9 +316,11 @@
   </nav>
 </div><!-- /#navigation -->
 
-		
+	
 
-<div id="masthead-no-image-header">
+	
+
+<div id="masthead">
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="https://fau-paleo.github.io/esde/" title="FAU ESDE MSc – Master's in Evolution of System Dynamics">
@@ -263,62 +333,196 @@
 
 
 
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="https://fau-paleo.github.io/esde/">Home</a>
+ 
+   
+    
+        <a class="current"></a>
+    
+  
+</nav>
 
 
 
 
-
-		
-
-
-<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">Atom feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
+<div class="masthead-caption">
+	<a href='https://www.britannica.com/place/Great-Barrier-Reef#/media/1/242906/68647'>The Great Barrier Reef, off the coast of Queensland, Australia.</a>
 </div>
 
 
 
-		]]></xsl:text>
-		<header class="t30 row">
-	<p class="subheadline"><xsl:value-of select="atom:subtitle" disable-output-escaping="yes" /></p>
-	<h1>
-		<xsl:element name="a">
-			<xsl:attribute name="href">
-				<xsl:value-of select="atom:id" />
-			</xsl:attribute>
-			<xsl:value-of select="atom:title" />
-		</xsl:element>
-	</h1>
-</header>
-<ul class="accordion row" data-accordion="">
-	<xsl:for-each select="atom:entry">
-		<li class="accordion-navigation">
-			<xsl:variable name="slug-id">
-				<xsl:call-template name="slugify">
-					<xsl:with-param name="text" select="atom:id" />
-				</xsl:call-template>
-			</xsl:variable>
-			<xsl:element name="a">
-				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
-				<xsl:value-of select="atom:title"/>
-				<br/>
-				<small><xsl:value-of select="atom:updated"/></small>
-			</xsl:element>
-			<xsl:element name="div">
-				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
-				<xsl:attribute name="class">content</xsl:attribute>
-				<h1>
-					<xsl:element name="a">
-						<xsl:attribute name="href"><xsl:value-of select="atom:id"/></xsl:attribute>
-						<xsl:value-of select="atom:title"/>
-					</xsl:element>
-				</h1>
-				<xsl:value-of select="atom:content" disable-output-escaping="yes" />
-			</xsl:element>
-		</li>
-	</xsl:for-each>
-</ul>
 
-		<xsl:text disable-output-escaping="yes"><![CDATA[
+
+
+
+
+	<div id="header-home">
+    <div class="row">
+        <div class="small-12 columns">
+        </div><!-- /.medium-4.columns -->
+    </div><!-- /.row -->
+</div><!-- /#header-home -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	
 		
+
+
+
+
+
+
+<div class="medium-4 columns frontpage-widget">
+	
+		<a href="https://fau-paleo.github.io/esde/admission/">
+			<img src="https://fau-paleo.github.io/esde/images/misc/for_students.jpg" alt="" style="border-radius:5%"/>
+		</a>
+	
+	<h2 class="font-size-h3 t10">Prospective students</h2>
+
+	<p>Are you interested in applying? Check out the admission requirements, the application process and start applying now.</p>
+	<p><a class="button tiny radius" href="https://fau-paleo.github.io/esde/admission/">More ›</a></p>
+</div>
+
+	
+
+	
+		
+
+
+
+
+
+
+<div class="medium-4 columns frontpage-widget">
+	
+		<a href="https://fau-paleo.github.io/esde/about/erlangen_and_the_FAU/">
+			<img src="https://fau-paleo.github.io/esde/images/widgets/pal.png" alt="" style="border-radius:5%"/>
+		</a>
+	
+	<h2 class="font-size-h3 t10">Tour</h2>
+
+	<p>Get to know our paleobiology program at the FAU! Learn about the institution, the program, students and instructors.</p>
+	<p><a class="button tiny radius" href="https://fau-paleo.github.io/esde/about/erlangen_and_the_FAU/">More ›</a></p>
+</div>
+
+	
+
+	
+		
+
+
+
+
+
+
+<div class="medium-4 columns frontpage-widget">
+	
+		<a href="https://fau-paleo.github.io/esde/resources/">
+			<img src="https://fau-paleo.github.io/esde/images/widgets/join.jpg" alt="" style="border-radius:5%"/>
+		</a>
+	
+	<h2 class="font-size-h3 t10">For current students</h2>
+
+	<p>Do you feel stuck with your administration or formalities? Need information, or help with the curriculum?</p>
+	<p><a class="button tiny radius" href="https://fau-paleo.github.io/esde/resources/">More ›</a></p>
+</div>
+
+	
+</div><!-- /.row -->
+
+
+
+
+<div class="row">
+    <div class="row">
+<div class="columns">
+    <p>This International Masters (MSc) program at <a href="https://fau-paleo.github.io/esde/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau">FAU</a> is for students… <strong>Some text is needed here.</strong></p>
+  </div>
+<div class="medium-6 large-6 columns">
+
+<div>
+      <p>This 2-year program is based in the beautiful city of <a href="https://fau-paleo.github.io/esde/about/erlangen_and_the_FAU/#the-city-of-erlangen">Erlangen</a> in Bavaria.</p>
+
+      <p><strong>Mambo-jumbo about the program.</strong></p>
+
+      <p>In the final semester, students will have the opportunity to hone these skills and develop their own individual research project on a paleontological topic of their choosing. This program has <a href="https://fau-paleo.github.io/esde/admission/financing/" style="color:red">no tuition fees</a> for students of any nationality.</p>
+
+    </div>
+
+</div>
+
+<div class="medium-6 large-6 columns">
+
+<table>
+<tr>
+	<td><strong>Degree awarded: </strong></td>
+	<td>MSc in Evolution of Earth System Dynamics</td>
+</tr>
+<tr>
+	<td><strong>Institution: </strong></td>
+	<td><a href="https://fau.eu">Friedrich-Alexander University (FAU)</a></td>
+</tr>
+<tr>
+	<td><strong>Location: </strong></td>
+	<td><a href="/esde/about/erlangen_and_the_FAU/">Erlangen, Germany</a></td>
+</tr>
+<tr>
+	<td><strong>Duration: </strong></td>
+	<td>2 years full-time; part-time options available</td>
+</tr>
+<tr>
+	<td><strong>Next start date: </strong></td>
+	<td>October 2027</td>
+</tr>
+<tr>
+	<td><strong>Tuition fee: </strong></td>
+	<td style="color:red"><strong>None!</strong></td>
+</tr>
+<tr>
+	<td><strong>University fee: </strong></td>
+	<td>67€/Semester</td>
+</tr>
+<tr>
+	<td><strong>Application start: </strong></td>
+	<td>February 2026</td>
+</tr>
+
+<tr>
+	<td><strong>Application deadline: </strong></td>
+	<td>July 15 2026</td>
+</tr>
+
+</table>
+
+
+</div>
+
+</div>
+
+<hr />
+
+</div><!-- /.row -->
+
+
+
+
+
+
+	
+	
     <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
@@ -366,13 +570,19 @@
       </div>
     </footer>
 
-		
+	
+
+	
 
 
 <script src="https://fau-paleo.github.io/esde/assets/js/javascript.min.js"></script>
 
 
 
+<script>
+    $("#masthead").backstretch("https://fau-paleo.github.io/esde/images/headers/reef.png", {fade: 700});
+    $("#masthead-with-text").backstretch("https://fau-paleo.github.io/esde/images/headers/reef.png", {fade: 700});
+</script>
 
 
 
@@ -382,18 +592,7 @@
 
 
 
-		]]></xsl:text>
-	</body>
-	</html>
-</xsl:template>
-<xsl:template name="slugify">
-	<xsl:param name="text" select="''" />
-	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
-	<xsl:variable name="replacementChar" select="'-----------------'" />
-	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
-	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
-	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
-	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
-	<xsl:value-of select="$escaped" />
-</xsl:template>
-</xsl:stylesheet>
+
+</body>
+</html>
+

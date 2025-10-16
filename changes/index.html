@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
-<xsl:output method="html" encoding="utf-8" />
-<xsl:template match="/atom:feed">
-	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
-	<html>
-	<head>
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		<meta charset="utf-8">
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Atom Feed (Styled)</title>
+	<title>Change Log</title>
 
     <link rel="stylesheet" type="text/css" href="https://fau-paleo.github.io/esde/assets/css/styles_feeling_responsive.css">
 
@@ -20,19 +15,19 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Friedrich-Alexander-Universität Erlangen-Nürnberg, GeoZentrum Nordbayern, Loewenichstr. 28 91054 Erlangen">
+	<meta name="description" content="">
 	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
 	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
 	
 	
 	
-	<link rel="canonical" href="https://fau-paleo.github.io/esde/assets/xslt/atom.xslt">
+	<link rel="canonical" href="https://fau-paleo.github.io/esde/changes/">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Atom Feed (Styled)">
-	<meta property="og:description" content="Friedrich-Alexander-Universität Erlangen-Nürnberg, GeoZentrum Nordbayern, Loewenichstr. 28 91054 Erlangen">
-	<meta property="og:url" content="https://fau-paleo.github.io/esde/assets/xslt/atom.xslt">
+	<meta property="og:title" content="Change Log">
+	<meta property="og:description" content="">
+	<meta property="og:url" content="https://fau-paleo.github.io/esde/changes/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="FAU ESDE MSc">
@@ -45,7 +40,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="PalaeoFAU">
 	<meta name="twitter:creator" content="PalaeoFAU">
-	<meta name="twitter:title" content="Atom Feed (Styled)">
+	<meta name="twitter:title" content="Change Log">
 	<meta name="twitter:description" content="International Master's in Paleobiology, FAU Erlangen-Nürnberg">
 	<meta name="twitter:image" content="https://fau-paleo.github.io/esde/twitter_card_summer.png">
 	
@@ -87,11 +82,84 @@
 	
 
 
-		]]></xsl:text>
-	</head>
-	<body id="top-of-page">
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		
+</head>
+<body id="top-of-page" class="post">
+	
+	<style>
+  fau-bar-element {font-size: .875rem; color:#444; font-family:Roboto; font-weight:normal}
+  fau-bar-element:hover {text-decoration:underline;}
+</style>
+
+<div id="faubar" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar style="background-color:#e9edf2">
+    <section class="top-bar-section"  >
+
+      <ul class="left" >
+		<li><a href="https://fau.eu"  style="background-color:#e9edf2">
+			<img
+			  src="https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-01.svg" style="height:31px;border-radius=0%"
+			  onmouseover="this.src='https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-02.svg'"
+			  onmouseout="this.src='https://fau-paleo.github.io/esde/images/logos/FAU_logo_arrow_sprite-01.svg'"
+			  alt="To FAU main page."
+			>
+		 </a>
+		</li>
+		<li ><a href="https://karte.fau.de/api/v1/iframe/marker/49.59799646658211,11.018187403678894/zoom/16#18/49.59734/11.01731"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>Map</fau-bar-element>
+		 </a>
+		</li>
+		<li ><a href="https://www.campo.fau.eu/"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>Campo</fau-bar-element>
+		 </a>
+		</li>
+		<li ><a href="https://www.studon.fau.de/"  style="background-color:#e9edf2;padding-left:0px">
+			<fau-bar-element>StudOn</fau-bar-element>
+		 </a>
+		</li>
+      </ul>
+
+      <ul class="right">
+		<li ><a href="https://gzn.nat.fau.eu"  style="background-color:#e9edf2">
+			<img
+			  src="https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-01.svg"
+			  onmouseover="this.src='https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-02.svg'"
+			  onmouseout="this.src='https://fau-paleo.github.io/esde/images/logos/GeoZentrum_sprite-01.svg'"
+			  style="height:38px">
+		 </a>
+		</li>
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+<div id="faupath" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar style="background-color:#fdfdfd;height:38px">
+    <section class="top-bar-section"  >
+
+      <ul class="left" >
+		<li><a href="https://fau.eu" style="padding-right:0px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Friedrich-Alexander-Universität /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://nat.fau.eu" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Faculty of Science /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://geo.nat.fau.de" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>Department of Geography and Geosciences /</fau-bar-element>
+		 </a>
+		</li>
+		<li><a href="https://gzn.nat.fau.eu" style="padding-right:0px;padding-left:5px;background-color:#fdfdfd;line-height:1.8rem">
+		<fau-bar-element>GeoZentrum Nordbayern</fau-bar-element>
+		 </a>
+		</li>
+      </ul>
+
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
 <div id="navigation" class="sticky" style="padding-bottom:15px;padding-top:15px">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
@@ -248,77 +316,124 @@
   </nav>
 </div><!-- /#navigation -->
 
-		
+	
 
-<div id="masthead-no-image-header">
-	<div class="row">
-		<div class="small-12 columns">
-			<a id="logo" href="https://fau-paleo.github.io/esde/" title="FAU ESDE MSc – Master's in Evolution of System Dynamics">
-				<img src="https://fau-paleo.github.io/esde/assets/img/FAU_Paleobiology_summer.png" alt="FAU ESDE MSc – Master's in Evolution of System Dynamics">
-			</a>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-</div><!-- /#masthead -->
+	
 
 
 
 
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="https://fau-paleo.github.io/esde/">Home</a>
+ 
+   
+    
+        <a class="current">Change Log</a>
+    
+  
+</nav>
 
 
 
 
 
-		
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					<p class="subheadline"></p>
+					<h1>Change Log</h1> 
+				</div>
+			</header>
 
 
-<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">Atom feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
-</div>
+			
+			<p class="teaser" itemprop="description">
+				
+			</p>
+			
 
+			<div itemprop="articleSection">
+			<hr />
 
+<h2 id="known-issues">Known issues</h2>
 
-		]]></xsl:text>
-		<header class="t30 row">
-	<p class="subheadline"><xsl:value-of select="atom:subtitle" disable-output-escaping="yes" /></p>
-	<h1>
-		<xsl:element name="a">
-			<xsl:attribute name="href">
-				<xsl:value-of select="atom:id" />
-			</xsl:attribute>
-			<xsl:value-of select="atom:title" />
-		</xsl:element>
-	</h1>
-</header>
-<ul class="accordion row" data-accordion="">
-	<xsl:for-each select="atom:entry">
-		<li class="accordion-navigation">
-			<xsl:variable name="slug-id">
-				<xsl:call-template name="slugify">
-					<xsl:with-param name="text" select="atom:id" />
-				</xsl:call-template>
-			</xsl:variable>
-			<xsl:element name="a">
-				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
-				<xsl:value-of select="atom:title"/>
-				<br/>
-				<small><xsl:value-of select="atom:updated"/></small>
-			</xsl:element>
-			<xsl:element name="div">
-				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
-				<xsl:attribute name="class">content</xsl:attribute>
-				<h1>
-					<xsl:element name="a">
-						<xsl:attribute name="href"><xsl:value-of select="atom:id"/></xsl:attribute>
-						<xsl:value-of select="atom:title"/>
-					</xsl:element>
-				</h1>
-				<xsl:value-of select="atom:content" disable-output-escaping="yes" />
-			</xsl:element>
-		</li>
-	</xsl:for-each>
+<ul>
+  <li>Accessibility missing</li>
 </ul>
 
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		
+<h2 id="-11-0----major-updates---2023-02-21">[ 1.1-0 ] - Major updates - 2023-02-21</h2>
+
+<h3 id="added">Added</h3>
+<ul>
+  <li>University navibar</li>
+  <li>University footer style</li>
+  <li>CSS effects for course and people buttons</li>
+  <li>Changes</li>
+  <li>pdf of step-by-step application instructions</li>
+  <li>Properly worked out highlights</li>
+</ul>
+
+<h3 id="changed">Changed</h3>
+<ul>
+  <li>‘Logo’ to mascot</li>
+  <li>Grid style buttons</li>
+  <li>Design elements, layouts of front page</li>
+</ul>
+
+<h2 id="-10-1----minor-updates---2022-05-20">[ 1.0-1 ] - Minor updates - 2022-05-20</h2>
+<h3 id="added-1">Added</h3>
+<ul>
+  <li>Basis for wiki</li>
+  <li>HiWi wiki page</li>
+  <li>Flyer for landing page</li>
+  <li>This change log</li>
+  <li>Logo download</li>
+</ul>
+
+<h3 id="changed-1">Changed</h3>
+<ul>
+  <li>Changed spelling from British to American English</li>
+  <li>Person page contact text is now clickable link</li>
+  <li>Person profile pictures - thumbnails are larger</li>
+</ul>
+
+<h3 id="fixed">Fixed</h3>
+<ul>
+  <li>Typos and missing values</li>
+  <li>Title case for course names</li>
+</ul>
+
+<hr />
+
+<h2 id="-10-0----initial-release---2022-05-13">[ 1.0-0 ] - Initial release - 2022-05-13</h2>
+<h3 id="added-2">Added</h3>
+<ul>
+  <li>Twitter card</li>
+</ul>
+
+
+			</div>
+
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	
     <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
@@ -366,7 +481,9 @@
       </div>
     </footer>
 
-		
+	
+
+	
 
 
 <script src="https://fau-paleo.github.io/esde/assets/js/javascript.min.js"></script>
@@ -382,18 +499,6 @@
 
 
 
-		]]></xsl:text>
-	</body>
-	</html>
-</xsl:template>
-<xsl:template name="slugify">
-	<xsl:param name="text" select="''" />
-	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
-	<xsl:variable name="replacementChar" select="'-----------------'" />
-	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
-	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
-	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
-	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
-	<xsl:value-of select="$escaped" />
-</xsl:template>
-</xsl:stylesheet>
+</body>
+</html>
+
