@@ -3,8 +3,8 @@ layout: frontpage
 header:
 #  image_fullwidth: "images/headers/ice.png"
 #  caption: "Photo by Sebastian Teichert"
-  image_fullwidth: "images/headers/reef.png"
-  caption: "<a href='https://www.britannica.com/place/Great-Barrier-Reef#/media/1/242906/68647'>The Great Barrier Reef, off the coast of Queensland, Australia.</a>"
+  image_fullwidth: "images/headers/esde-coast.jpg"
+#  caption: "<a href='https://www.britannica.com/place/Great-Barrier-Reef#/media/1/242906/68647'>The Great Barrier Reef, off the coast of Queensland, Australia.</a>"
 # widget1:
 #   title: "Prospective students"
 #   url: '/admission/'
@@ -43,21 +43,22 @@ homepage: true
 <br>
 
 <div class="row">
-<div class="columns" markdown="1">
-The new Master’s program in <span style="color:#0c778d;font-weight:600">Earth System Dynamics and Evolution</span> at [FAU]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau) prepares interdisciplinary Earth system scientists with a fundamental understanding of Earth systems, and the interconnectedness between Earth’s spheres across different timescales. They possess an advanced appreciation of the complexities of diverse data sources representing Earth and life through geological time, alongside strong competencies in modelling and statistics, research design, and project management. Yet, the program will raise awareness to the social and geopotlical dimensions of science, and includes explicit training in science policy and diplomacy. Graduates will be able to reflect critically on the role of science in society, the interface between research and decision-making, and the ethical implications of scientific practice.
-
-
-</div>
-<div class="medium-6 large-6 columns">
-
-<div markdown="1">
-This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#the-city-of-erlangen) in Bavaria. The program combines compulsory modules that establish a comprehensive understanding of the atmosphere, biosphere, geosphere, and hydrosphere, with elective courses that allow students to pursue advanced, research-oriented specializations. Inter- and transdisciplinary competencies are fostered through dedicated modules in data science, and science communication, as well as through collaborative and project-based learning, and critical thinking exercises. An understanding of the social dimensions of Earth system science is developed through dedicated humanities modules. Practical experience is gained through an internship and independent research, culminating in the development of a thesis that integrates perspectives across Earth systems. This program has <a href="{{site.url}}{{site.baseurl}}/admission/financing/" style="color:red">no tuition fees</a> for students of any nationality.
+<div class="large-6 medium-6 columns" markdown="1">
+The new Master’s program in <i><span style="color:#0c778d;font-weight:600">Earth System Dynamics and Evolution</span></i> at [FAU]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau) prepares interdisciplinary Earth system scientists with a fundamental understanding of Earth systems, and the interconnectedness between Earth’s spheres across different timescales. They possess an advanced appreciation of the complexities of diverse data sources representing Earth and life through geological time, alongside strong competencies in modelling and statistics, research design, and project management. Yet, the program will raise awareness to the social and geopotlical dimensions of science, and includes explicit training in science policy and diplomacy. Graduates will be able to reflect critically on the role of science in society, the interface between research and decision-making, and the ethical implications of scientific practice.
 
 
 </div>
 
+<div class="large-6 medium-6 columns" markdown="1">
+<img src="{{site.url}}{{site.baseurl}}/images/misc/envisat_australia.jpg" style="border-radius:15px;outline:2px solid #ffffff44;outline-offset: -1px">
+<small>
+A beautiful result of Earth system interactions: the Great Barrier Reef in Australia (Envisat image, <a href="https://commons.wikimedia.org/wiki/File:The_Great_Barrier_Reef,_Australia_-_Envisat.jpg" >source</a>)
+</small>
 </div>
 
+</div>
+
+<div class="row">
 <div class="medium-6 large-6 columns" >
 
 <table>
@@ -98,6 +99,10 @@ This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{s
 	<td><strong>Application deadline: </strong></td>
 	<td>July 15 2026</td>
 </tr>
+<tr>
+	<td><strong>Application fee: </strong></td>
+	<td>One-time €100</td>
+</tr>
 {%comment%}
 <tr>
 	<td><strong>Application deadlines: </strong></td>
@@ -119,6 +124,20 @@ This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{s
 	<a href="{{site.url}}{{site.basurl}}/admission/now/">Learn more here...</a> </i>
 </div>
 {%endcomment%}
+
+<p>
+For furter inquiry, contact: <i><span style="color:#0c778d">earthsystem-master@fau.de</span></i>
+</p>
+</div>
+
+<div class="medium-6 large-6 columns">
+
+<div markdown="1">
+This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#the-city-of-erlangen) in Bavaria. The program combines compulsory modules that establish a comprehensive understanding of the atmosphere, biosphere, geosphere, and hydrosphere, with elective courses that allow students to pursue advanced, research-oriented specializations. Inter- and transdisciplinary competencies are fostered through dedicated modules in data science, and science communication, as well as through collaborative and project-based learning, and critical thinking exercises. An understanding of the social dimensions of Earth system science is developed through dedicated humanities modules. Practical experience is gained through an internship and independent research, culminating in the development of a thesis that integrates perspectives across Earth systems. This program has <a href="{{site.url}}{{site.baseurl}}/admission/financing/" style="color:red">no tuition fees</a> for students of any nationality.
+
+
+</div>
+
 </div>
 
 </div>
@@ -133,22 +152,20 @@ This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{s
 * * *
 
 
-<i>Supported by:</i>
-
 <div class="row">
 
 
-<div class="medium-3 large-3 columns" style="padding-right:40px;padding-left:40px;padding-bottom:10px" >
+<div class="medium-3 large-3 columns" style="padding:10px">
 <a href="https://fau.eu">
-<img src="{{site.url}}{{site.baseurl}}/images/logos/FAU.svg">
+<img src="{{site.url}}{{site.baseurl}}/images/logos/FAU_noborder.svg">
 </a>
 </div>
-<div class="medium-3 large-3 columns">
+<div class="medium-3 large-3 columns" style="padding:10px">
 <a href="https://www.uni-bayreuth.de/en">
 <img src="{{site.url}}{{site.baseurl}}/images/logos/unibayreuth.svg">
 </a>
 </div>
-<div class="medium-3 large-3 columns" >
+<div class="medium-3 large-3 columns" style="padding:10px">
 <a href="https://www.elitenetzwerk.bayern.de/en/home/funding-programs/elite-graduate-programs/overview-of-elite-graduate-programs">
 <img src="{{site.url}}{{site.baseurl}}/images/logos/elitenetwork.png">
 </a>
@@ -156,5 +173,6 @@ This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{s
 <div class="medium-3 large-3 columns" >
 </div>
 </div>
+
 
 {% include alert info='Pending approval of the senate (February 2026) applications will open April 2026. ' %}
