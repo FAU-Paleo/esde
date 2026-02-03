@@ -165,12 +165,12 @@
 
                       
 
-                      <li><a  href="https://fau-paleo.github.io/esde/about/erlangen_and_the_FAU/">Erlangen and The FAU</a></li>
+                      <li><a  href="https://fau-paleo.github.io/esde/about/erlangen_and_the_FAU/">The FAU and Erlangen</a></li>
                     
 
                       
 
-                      <li><a  href="https://fau-paleo.github.io/esde/about/our_science/">Our Science</a></li>
+                      <li><a  href="https://fau-paleo.github.io/esde/about/our_science/">Earth System Research</a></li>
                     
                   </ul>
 
@@ -203,6 +203,11 @@
                       
 
                       <li><a  href="https://fau-paleo.github.io/esde/program/highlights/">Highlights</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://fau-paleo.github.io/esde/program/courses/">Courses</a></li>
                     
 
                       
