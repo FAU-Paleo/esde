@@ -44,7 +44,7 @@ homepage: true
 
 <div class="row">
 <div class="large-6 medium-6 columns" markdown="1">
-The new Master’s program in <i><span style="color:#0c778d;font-weight:600">Earth System Dynamics and Evolution</span></i> at [FAU]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau) prepares interdisciplinary Earth system scientists with a fundamental understanding of Earth systems, and the interconnectedness between Earth’s spheres across different timescales. They possess an advanced appreciation of the complexities of diverse data sources representing Earth and life through geological time, alongside strong competencies in modelling and statistics, research design, and project management. Yet, the program will raise awareness to the social and geopotlical dimensions of science, and includes explicit training in science policy and diplomacy. Graduates will be able to reflect critically on the role of science in society, the interface between research and decision-making, and the ethical implications of scientific practice.
+The new <i><span class="veryhighlight">Earth System Dynamics and Evolution</span></i> Master’s program at [FAU]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau) prepares interdisciplinary Earth system scientists with a fundamental understanding of Earth systems, and the interconnectedness between Earth’s spheres across different timescales. Students of the program will possess an advanced appreciation of the complexities of diverse data sources representing Earth and life through geological time, alongside strong competencies in modelling and statistics, research design, and project management. Yet, the program will raise awareness to the social and geopotlical dimensions of science, and includes explicit training in science policy and diplomacy. Graduates will be able to reflect critically on the role of science in society, the interface between research and decision-making, and the ethical implications of scientific practice.
 
 
 </div>
@@ -84,7 +84,7 @@ A beautiful result of Earth system interactions: the Great Barrier Reef in Austr
 </tr>
 <tr>
 	<td><strong>Tuition fee: </strong></td>
-	<td style="color:red"><strong>None!</strong></td>
+	<td style="color:red"><strong>None</strong></td>
 </tr>
 <tr>
 	<td><strong>University fee: </strong></td>
@@ -101,7 +101,7 @@ A beautiful result of Earth system interactions: the Great Barrier Reef in Austr
 </tr>
 <tr>
 	<td><strong>Application fee: </strong></td>
-	<td>One-time €100</td>
+	<td>One-time €100*</td>
 </tr>
 {%comment%}
 <tr>
@@ -114,10 +114,7 @@ A beautiful result of Earth system interactions: the Great Barrier Reef in Austr
 </tr>
 {%endcomment%}
 </table>
-{%comment%}
-<sup><strong>a</strong>: EU, Iceland, Norway, Switzerland, UK, USA</sup>
-<sup><strong>b</strong>: Rest of the world</sup>
-{%endcomment%}
+<sup><strong>*</strong>Only for applicants coming from countries outside of the EU (otherwise €0)</sup>
 {%comment%}
 <div >
 	<i><strong>If you come from a slow-visa country, please apply as soon as possible!</strong>	
@@ -155,17 +152,17 @@ This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{s
 <div class="row">
 
 
-<div class="medium-3 large-3 columns" style="padding:10px">
+<div class="small-3 medium-3 large-3 columns" style="padding:10px">
 <a href="https://fau.eu">
 <img src="{{site.url}}{{site.baseurl}}/images/logos/FAU_noborder.svg">
 </a>
 </div>
-<div class="medium-3 large-3 columns" style="padding:10px">
+<div class="small-3 medium-3 large-3 columns" style="padding:10px">
 <a href="https://www.uni-bayreuth.de/en">
 <img src="{{site.url}}{{site.baseurl}}/images/logos/unibayreuth.svg">
 </a>
 </div>
-<div class="medium-3 large-3 columns" style="padding:10px">
+<div class="small-3 medium-3 large-3 columns" style="padding:10px">
 <a href="https://www.elitenetzwerk.bayern.de/en/home/funding-programs/elite-graduate-programs/overview-of-elite-graduate-programs">
 <img src="{{site.url}}{{site.baseurl}}/images/logos/elitenetwork.png">
 </a>

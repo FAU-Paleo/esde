@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 subheadline: ""
-title: "Erlangen and the FAU"
+title: "The FAU and Erlangen"
 teaser: ""
 header:
   image_fullwidth: "/images/headers/schloss.jpg"
@@ -25,46 +25,6 @@ Wandering in the Walberla, in the Frankonian Switzerland - about 20 km Northeast
 </div>
 </div>
 </div>
-
-## The city of Erlangen
-
-<div class="row b30">
-<div class="large-12 columns">
-<a href="https://en.wikipedia.org/wiki/Erlangen">Erlangen</a> is an Middle Franconian city located in Bavaria, southern Germany, close to the larger city of <a href="https://en.wikipedia.org/wiki/Nuremberg"> Nuremberg (<i>Nürnberg</i>)</a>. Originally the home of the Huguenots, Erlangen is now an international hub for research and technology, thanks to the presence of the university, university hospital, and Siemens. The city itself has lots to offer, including theatre performances, cosy cafés, sporting and leisure activities, and a lively pub scene and night life. The area around the city of Erlangen is famous for its hilly Jurassic landscape with many fossil-collecting localities, hiking trails, cycling routes, caves, castles, climbing routes, and small breweries. The mixture of academia, technology, culture, and natural beauty makes Erlangen and the wider the region the perfect place for creative minds, keen athletes and nature lovers.
-
-Erlangen is very well connected to the rest of Germany and beyond. Nuremberg <a href="https://www.airport-nuernberg.de/english">(NUE)</a> airport is only half an hour outside of the city and the larger airports of Frankfurt and Munich are only short (~2 hour) train rides away. By train or bus, it is easy to reach other cities and natural landscapes, including Munich (~1 hour by train), Berlin (~3 hours by train), and Prague (~4 hours by bus), as well as the <a href= "https://www.fraenkische-schweiz.com/">Franconian Switzerland<i> (Fränkische Schweiz)</i></a> region, and Solnhofen and the Bürgermeister-Müller-Museum (1.5 hours by train).
-
-
-</div>
-</div>
-<img src="{{site.url}}{{site.baseurl}}/images/places/orangerie.jpg" alt="Photo of the orangerie">
-<small>The 'Orangerie' in the Schloßgarten (photo by Laura Albers)</small>
-
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-* * *
-
-
-## Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
-<div class="row">
-<div class="large-8 medium-8 columns">
-<p>
-Founded in 1743, <a href="https://www.fau.eu">Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)</a> is a research university primarily based in Erlangen with campuses across the Nuremberg metropolitan area. FAU is consistently ranked highly in both national and international rankings. According to <a href="https://www.reuters.com/graphics/EUROPE-UNIVERSITY-INNOVATION/010091N02HR/index.html">Reuters Top 100</a>, FAU is the most innovative university in Germany, the 2nd in Europe, and the 14th in the world. In the <a href="https://www.shanghairanking.com/institution/university-of-erlangen-nuremberg">„Shanghai Ranking“ of Academic Ranking of World Universities, 2021</a>, FAU belongs to the top 300 universities worldwide.
-</p>
-<p>
-Our courses and the <a href="https://nat.fau.eu">Faculty of Natural Sciences</a> are in Erlangen, but thanks to efficient <a href="https://www.vgn.de/">public transport</a>, students can choose from a wide housing offer, from lively downtown Nuremberg to countryside locations outside Erlangen.
-</p>
-</div>
-
-<div class="large-4 medium-4 columns" style="margin-top:15px">
-<img src="{{site.url}}{{site.baseurl}}/images/places/university.jpg" alt="Photo of the main university building">
-<small>The main University building (photo by Georg Pöhlein)</small>
-</div>
-</div>
-
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-* * *
 
 ## GeoZentrum Nordbayern
 <div class="row">
@@ -135,5 +95,53 @@ The recently acquired **Henkstraße** buildings ([Henkestr. 91](https://www.goog
 </dl>
 
 Despite the small size of our field, we have <a href="https://www.gzn.nat.fau.eu/palaeontologie/team/">three professors focusing on Paleontology</a>, which makes the Erlangen group a unique hub of paleontological research in Europe.
+
+
+Other study programs
+
+
+
+
+
+## Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
+<div class="row">
+<div class="large-8 medium-8 columns">
+<p>
+Founded in 1743, <a href="https://www.fau.eu">Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)</a> is a research university primarily based in Erlangen with campuses across the Nuremberg metropolitan area. FAU is consistently ranked highly in both national and international rankings. According to <a href="https://www.reuters.com/graphics/EUROPE-UNIVERSITY-INNOVATION/010091N02HR/index.html">Reuters Top 100</a>, FAU is the most innovative university in Germany, the 2nd in Europe, and the 14th in the world. In the <a href="https://www.shanghairanking.com/institution/university-of-erlangen-nuremberg">„Shanghai Ranking“ of Academic Ranking of World Universities, 2021</a>, FAU belongs to the top 300 universities worldwide.
+</p>
+<p>
+Our courses and the <a href="https://nat.fau.eu">Faculty of Natural Sciences</a> are in Erlangen, but thanks to efficient <a href="https://www.vgn.de/">public transport</a>, students can choose from a wide housing offer, from lively downtown Nuremberg to countryside locations outside Erlangen.
+</p>
+</div>
+
+<div class="large-4 medium-4 columns" style="margin-top:15px">
+<img src="{{site.url}}{{site.baseurl}}/images/places/university.jpg" alt="Photo of the main university building">
+<small>The main University building (photo by Georg Pöhlein)</small>
+</div>
+</div>
+
+<small markdown="1">[Up to table of contents](#toc)</small>
+{: .text-right }
+* * *
+
+
+
+## The city of Erlangen
+
+<div class="row b30">
+<div class="large-12 columns">
+<a href="https://en.wikipedia.org/wiki/Erlangen">Erlangen</a> is an Middle Franconian city located in Bavaria, southern Germany, close to the larger city of <a href="https://en.wikipedia.org/wiki/Nuremberg"> Nuremberg (<i>Nürnberg</i>)</a>. Originally the home of the Huguenots, Erlangen is now an international hub for research and technology, thanks to the presence of the university, university hospital, and Siemens. The city itself has lots to offer, including theatre performances, cosy cafés, sporting and leisure activities, and a lively pub scene and night life. The area around the city of Erlangen is famous for its hilly Jurassic landscape with many fossil-collecting localities, hiking trails, cycling routes, caves, castles, climbing routes, and small breweries. The mixture of academia, technology, culture, and natural beauty makes Erlangen and the wider the region the perfect place for creative minds, keen athletes and nature lovers.
+
+Erlangen is very well connected to the rest of Germany and beyond. Nuremberg <a href="https://www.airport-nuernberg.de/english">(NUE)</a> airport is only half an hour outside of the city and the larger airports of Frankfurt and Munich are only short (~2 hour) train rides away. By train or bus, it is easy to reach other cities and natural landscapes, including Munich (~1 hour by train), Berlin (~3 hours by train), and Prague (~4 hours by bus), as well as the <a href= "https://www.fraenkische-schweiz.com/">Franconian Switzerland<i> (Fränkische Schweiz)</i></a> region, and Solnhofen and the Bürgermeister-Müller-Museum (1.5 hours by train).
+
+
+</div>
+</div>
+<img src="{{site.url}}{{site.baseurl}}/images/places/orangerie.jpg" alt="Photo of the orangerie">
+<small>The 'Orangerie' in the Schloßgarten (photo by Laura Albers)</small>
+
+<small markdown="1">[Up to table of contents](#toc)</small>
+{: .text-right }
+
 
 <p><a class="button tiny radius" href="{{site.baseurl}}/about/our_science/">Our Science ›</a></p>

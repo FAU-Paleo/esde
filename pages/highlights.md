@@ -12,33 +12,18 @@ breadcrumb: true
 
 * * *
 
+### Interdisciplinarity
+
+-Describe what it is based on the **Designing Interdisciplinary Education** book.
+
+
 ### Independent Research
 
 <div class="row">
 
 <div class ="small-9 medium-9 large-9 columns" markdown="1">
 
-One of the highlights of our program is opportunities for independent research. This not only includes the Master's thesis in the final semester, but also shorter research projects within modules and various opportunities to support research being conducted by [staff at the Institute]({%link pages/our_science.md%}) and staff at [GeoZentrum Nordbayern](https://www.gzn.nat.fau.eu/palaeontologie/team/).
-
-Several courses will prepare students for independent research:
-
-<div class="row">
-{% assign ordered = site.data.courses | sort: 'semester' %}
-{% for course in ordered %}
-{% if course.research %}
-<div class ="small-6 medium-4 large-3 columns" style="float:left">
-<a href="{{site.baseurl}}/program/courses/{{course.ref}}/">
-<img src="{{site.baseurl}}/{{course.thumbnail}}" alt="{{course.name}} image thumbnail" style="border-radius:15%;border:1px solid #ddd"
-onmouseover="this.setAttribute('style', 'transform:translateY(-0.25em);box-shadow: 0 0 0.5em #CDE4AC;border-radius:15%;transition: all 0.1s;border:1px solid #ddd;')"
-onmouseout="this.setAttribute('style', 'transform:translateY(0.0em);box-shadow: 0 0 0 0;border-radius:15%;border:1px solid #ddd')"
-></a>
-<div style="height:80px;text-align:center"><a href="{{site.baseurl}}/program/courses/{{course.ref}}/">{{course.nickname}}</a></div>
-</div>
-{% endif %}
-{% endfor %}
-</div>
-
-During the [Literature Seminar]({{site.baseurl}}/program/courses/rp_design/), student will hear talks from researchers within the paleobiology research group, as well as visiting researchers, about their ongoing research projects. Students will have the opportunity to ask questions and provide feedback to speakers, as well as engage in discussions about various topics such as the strengths of certain methodologies, options for data visualisation, and the interpretation of results. At the end of the series, students will present their own talk about their plans for their thesis research.
+A core element of our program is the opportunity for independent research, which includes the design of a Master's thesis in the 3rd and its implementation in the final semester. Several courses will prepare students for independent research. During the [Literature Seminar]({{site.baseurl}}/program/courses/rp_design/), student will hear talks from researchers within the paleobiology research group, as well as visiting researchers, about their ongoing research projects. Students will have the opportunity to ask questions and provide feedback to speakers, as well as engage in discussions about various topics such as the strengths of certain methodologies, options for data visualisation, and the interpretation of results. At the end of the series, students will present their own talk about their plans for their thesis research.
 
 During the [Science Communication]({{site.baseurl}}/program/courses/science_communication/) and [Research Project Design]({{site.baseurl}}/program/courses/rp_design/) courses, students will develop their skills in communication and project design. During [Research Project Design]({{site.baseurl}}/program/courses/rp_design/), students will develop an independent project idea for a grant proposal (which can be based on their thesis research) and write this up in the format of a [Deutsche Forschungsgemeinschaft (DFG)](https://www.dfg.de/) proposal, which they then present as a Seminar talk. In [Science Communication]({{site.baseurl}}/program/courses/science_communication/), students will develop their skills in a variety of forms of communication, including scientific posters, graphical abstracts, videos, and blog posts.
 
