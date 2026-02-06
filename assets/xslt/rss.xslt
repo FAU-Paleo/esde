@@ -96,8 +96,8 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-			<a class="show-for-small-only" href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%"><img src="https://fau-paleo.github.io/esde/assets/img/Icon_summer.png" style="height:50px"></a>
-			<a class="show-for-medium-only" href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%"><img src="https://fau-paleo.github.io/esde/assets/img/Icon_summer.png" style="height:50px"></a>
+			<a class="show-for-small-only" href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%"><img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px"></a>
+			<a class="show-for-medium-only" href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%"><img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px"></a>
 
  
 
@@ -109,7 +109,7 @@
 
       <ul class="left">
 		<li><a href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%">
-			<img src="https://fau-paleo.github.io/esde/assets/img/Icon_summer.png" style="height:50px">
+			<img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px">
 		 </a>
 		</li>
 		<!--
