@@ -75,7 +75,7 @@
 
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://fau-paleo.github.io/esde/assets/img/apple-icon-72x72.png">
 
-	<link rel="apple-touch-icon-precomposed" href="https://fau-paleo.github.io/esde/assets/img/apple-icon-precomposed.png">	
+	<link rel="apple-touch-icon-precomposed" href="https://fau-paleo.github.io/esde/assets/img/apple-touch-icon.png">	
 
 	<meta name="msapplication-TileImage" content="https://fau-paleo.github.io/esde/assets/img/ms-icon-144x144.png">
 
