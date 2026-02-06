@@ -43,14 +43,14 @@ homepage: true
 <br>
 
 <div class="row">
-<div class="large-6 medium-6 columns" markdown="1">
+<div class="large-6 columns" markdown="1" style="padding-top:1rem">
 The new <i><span class="veryhighlight">Earth System Dynamics and Evolution</span></i> Master’s program at [FAU]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#friedrich-alexander-universität-erlangen-nürnberg-fau) prepares interdisciplinary Earth system scientists with a fundamental understanding of Earth systems, and the interconnectedness between Earth’s spheres across different timescales. Students of the program will possess an advanced appreciation of the complexities of diverse data sources representing Earth and life through geological time, alongside strong competencies in modelling and statistics, research design, and project management. Yet, the program will raise awareness to the social and geopotlical dimensions of science, and includes explicit training in science policy and diplomacy. Graduates will be able to reflect critically on the role of science in society, the interface between research and decision-making, and the ethical implications of scientific practice.
 
 
 </div>
 
-<div class="large-6 medium-6 columns" markdown="1">
-<img src="{{site.url}}{{site.baseurl}}/images/misc/envisat_australia.jpg" style="border-radius:15px;outline:2px solid #ffffff44;outline-offset: -1px">
+<div class="large-6 columns" markdown="1">
+<img src="{{site.url}}{{site.baseurl}}/images/misc/envisat_australia2.jpg" style="border-radius:15px;outline:2px solid #ffffff44;outline-offset: -1px">
 <small>
 A beautiful result of Earth system interactions: the Great Barrier Reef in Australia (Envisat image, <a href="https://commons.wikimedia.org/wiki/File:The_Great_Barrier_Reef,_Australia_-_Envisat.jpg" >source</a>)
 </small>
@@ -61,7 +61,7 @@ A beautiful result of Earth system interactions: the Great Barrier Reef in Austr
 <div class="row">
 <div class="medium-6 large-6 columns" >
 
-<table>
+<table width="100%">
 <tr>
 	<td><strong>Degree awarded: </strong></td>
 	<td>MSc in Earth System Dynamics and Evolution</td>
@@ -129,7 +129,7 @@ For furter inquiry, contact: <i><span style="color:#0c778d">earthsystem-master@f
 
 <div class="medium-6 large-6 columns">
 
-<div markdown="1">
+<div markdown="1"  style="padding-top:1.5rem">
 This 2-year program is based in the beautiful city of [Erlangen]({{site.url}}{{site.baseurl}}/about/erlangen_and_the_FAU/#the-city-of-erlangen) in Bavaria. The program combines compulsory modules that establish a comprehensive understanding of the atmosphere, biosphere, geosphere, and hydrosphere, with elective courses that allow students to pursue advanced, research-oriented specializations. Inter- and transdisciplinary competencies are fostered through dedicated modules in data science, and science communication, as well as through collaborative and project-based learning, and critical thinking exercises. An understanding of the social dimensions of Earth system science is developed through dedicated humanities modules. Practical experience is gained through an internship and independent research, culminating in the development of a thesis that integrates perspectives across Earth systems. This program has <a href="{{site.url}}{{site.baseurl}}/admission/financing/" style="color:red">no tuition fees</a> for students of any nationality.
 
 

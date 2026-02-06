@@ -18,6 +18,8 @@ breadcrumb: true
 
 The <span class="veryhighlight">Earth System Dynamics and Evolution</span> master's program takes place over 2 years and is made up of 4 semesters. During the first 3 semesters (year 1 and half of year 2), students will take [regular courses]({{site.url}}/{{site.baseurl}}/courses/). The final (4th) semester is dedicated to the [Masters thesis]({{site.url}}/{{site.baseurl}}/highlights/#master-thesis). These [regular courses]({{site.url}}/{{site.baseurl}}/courses/) include interdisciplinary core modules, discipline-specific foundational courses and more advanced elective courses, that include advanced data analytical, modelling, laboratory or field courses. 
 
+Students who complete the program will earn a '**MSc. in Earth System Dynamics and Evolution**'. The degree and the acquired knowledge opens up a wide range of [potential career paths]({{site.url}}/{{site.baseurl}}/program/perspectives/) - primarily in the academic/scientific sector. 
+
 </div>
 
 <div class="large-5 medium-6 columns sysimage" id="geoimage">
@@ -50,7 +52,7 @@ The <span class="veryhighlight">Earth System Dynamics and Evolution</span> maste
 
 </div>
 
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="atmo-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="atmo-para" style="display:none;padding-left:2rem;padding-right:2rem">
 
 #### Atmosphere
 
@@ -58,20 +60,20 @@ The modules in this theme are designed to provide students with a comprehensive 
 
 </div>
 
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="bio-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="bio-para" style="display:none;padding-left:2rem;padding-right:2rem">
 #### Biosphere
 
 The modules in this theme are designed to equip students with a comprehensive understanding of ecological and evolutionary processes, how we analyze and model these processes in deep time, and how we bring together evidence from the fossil, geological, and molecular records.
 
 </div>
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="hydro-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="hydro-para" style="display:none;padding-left:2rem;padding-right:2rem">
 #### Hydro- and Cryosphere
 
 The modules in this theme are designed to enable students to acquire knowledge of the hydrological cycle, including groundwater, water quality and quantity considering natural and anthropogenic processes, and how they interact with atmosphere, biosphere, and geosphere. Through these modules, students gain insights into data collected from the field, analytical and modeling techniques, chemical tools used in research fields related to the hydrosphere, such as hydrology, hydrogeology, hydrogeochemistry, and water resources management and modeling.
 
 </div>
 
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="geo-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="geo-para" style="display:none;padding-left:2rem;padding-right:2rem">
 #### Geosphere
 
 The modules in this theme are designed to enable students to acquire knowledge of global cycles and processes across the Earth's surface and interior. Through these modules, students gain insights into data collected from the field, analytical techniques, and chemical tools used in various research fields related to the geosphere, such as geodynamics, mineralogy, geochemistry, sedimentology, geophysics, and tectonics.
@@ -80,7 +82,6 @@ The modules in this theme are designed to enable students to acquire knowledge o
 
 </div>
 
-Students who complete the program will earn a '**MSc. in Earth System Dynamics and Evolution**'. The degree and the acquired knowledge opens up a wide range of potential career paths - primarily in the academic/scientific sector. 
 
 * * *
 

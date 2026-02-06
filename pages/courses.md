@@ -20,25 +20,14 @@ breadcrumb: true
 
 <div class="row" markdown="1">
 
-<div class="columns" markdown="1">
-
-</div>
 
 
-<div class="medium-4 medium-push-8 columns" markdown="1">
-<div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-</div>
 </div><!-- /.medium-4.columns -->
 
 
-<div class="medium-8 medium-pull-4 columns" markdown="1">
+<div class="medium-12 large-12 columns" markdown="1">
 
-The program is divided into 4 semesters, each equating to an expected average of [30 ECTS](https://education.ec.europa.eu/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system). In the first 3 semesters, students take both prescribed and [elective courses](#elective-courses), and the final (4<sup>th</sup>) semester is dedicated to the [Masters thesis]({%link pages/highlights.md%}#master-thesis). The courses are organized into two main themes: [Foundational Interdisciplinary Modules]() and [Earth System modules](). Courses include lectures, seminars and practicals on a variety of core topics. Most courses take place during the main teaching semesters, but some are held as whole-day block courses to make the work more focused.
-
+The program is divided into 4 semesters, each equating to an expected average of [30 ECTS](https://education.ec.europa.eu/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system). In the first 3 semesters, students take both prescribed and elective courses, and the final (4<sup>th</sup>) semester is dedicated to the [Masters thesis]({%link pages/highlights.md%}#master-thesis). The courses are organized into two main themes: [Foundational Interdisciplinary Modules]() and [Earth System modules](). Courses include lectures, seminars and practicals on a variety of core topics. Most courses take place during the main teaching semesters, but some are held as whole-day block courses to make the work more focused.
 
 For a broader overview of the program, see the [program outline]({{site.baseurl }}/program/outline/).
 
@@ -53,9 +42,7 @@ The following table illustrates the distribution of coursework over the four sem
 {% include _program.html %}
 
 </div>
-</div>
 
-<hr>
 
 <div markdown="1">
 

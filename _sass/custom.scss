@@ -9,27 +9,13 @@
 	font-weight:700;
 }
 
-// svg g .over {
-// 	fill-opacity: 0;
-// 	stroke-opacity: 0;
-// }
-// svg g .over:hover {
-// 	fill-opacity: 0.70;
-// 	stroke-opacity: 1;
-// 	transition:0.3s;
-
-// }
-
-// svg g .over:not(:hover) {
-// 	transition:0.3s;
-
-// }
 
 .sphere-para {
 	// background-color: #4efd4521;
 	border: 2px solid #4efd4511;
 	font-style: italic;
 	background-image: linear-gradient(60deg, #4efd4521, #4efd4501);
+	margin-top:15px;
 
 }
 
@@ -38,4 +24,23 @@
 	text-align: center;
 	color: #999999;
 
+}
+html {
+  scroll-behavior: smooth;
+}
+.instdiv{
+	text-align:center;
+}
+.instlink:hover{
+	border-bottom:0px solid;
+	transition:none;
+}
+
+
+#homeimg:hover{
+	translate:5px 0px;
+	transition-duration: .25s;
+	border-left:5px #7bb725 solid;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.22);
+	transition-timing-function: ease-out, ease-out;
 }
