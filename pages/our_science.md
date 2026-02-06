@@ -10,38 +10,27 @@ breadcrumb: true
 ---
 
 
-On this page you can find the main research topics that instructors of the program are engaged with. Altough external topics are also available, the most students conduct research that are related to what our instructors pursue.
+
+On this page you can find the main research topics that instructors of the program are engaged with. Although external topics are also available, most students conduct research that is related to what our instructors pursue.
+
+## Traditional disciplinary research
+
+### Atmosphere
+
+### Hydrosphere
+
+### Geosphere
+
+### Biosphere
 
 * * *
 
-## Geosphere
 
-- Item
-- Item 
+## Interdisciplinary research
 
-* * *
+### Philosophy of Science
 
-## Atmosphere
-- Item 
-- Item 
-
-* * *
-
-## Biosphere
-
-- Forest ecology 
-- Analytical Paleoecology
-- Phylogenetics
-
-* * *
-
-## Hydrosphere
-
-- Item 
-- Item 
-
-* * *
-
+### Interdisciplinary case studies
 
 
 

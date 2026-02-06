@@ -16,6 +16,9 @@ breadcrumb: true
 
 -Describe what it is based on the **Designing Interdisciplinary Education** book.
 
+### Temporal integration
+
+- the program was developed to provide a deep-time perspective for historic, present and forecasted processes in the Earth System.
 
 ### Independent Research
 

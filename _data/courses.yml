@@ -1,22 +1,22 @@
-- name: What is science diplomacy and how to use it
+- name: Science diplomacy
   state: active
-  nickname: Climate and Earth System Data
-  ref: earth_data
-  module: "CE-V2"
+  nickname: Science diplomacy 
+  ref: diplomacy 
+  module: "Foundations I: Science diplomacy"
   time:
   room:
   group:
-    - regular
-  short: "Data are everywhere. In this course, students learn examples of the available kinds of data in Earth System Research and a universal programming toolset to manipulate, transform and work with them."
-  evaluation: "Students are required to participate in the classes and to finish an analytical project combining multiple data sources. "
-  semester: 2
-  administrator: kocsis
+    - interdisciplinary
+  short: ""
+  evaluation: ""
+  semester: 1
+  administrator: rentetzi
   instructors:
-    - kocsis
-  ects: 2.5
-  campo: "https://www.campo.fau.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=108690&periodId=564"
-  studon: "https://www.studon.fau.de/crs6152379.html"
-  thumbnail: "images/courses/thumbnails/data.png"
+    - rentetzi
+  ects: 5 
+  campo: 
+  studon: 
+  thumbnail: "images/courses/thumbnails/interdisciplinary.png"
   photos:
   image:
     title: "images/courses/big/climate_data.jpg"
@@ -26,3 +26,177 @@
   type:
     - tutorial
 
+- name: Literature seminar 
+  state: active
+  nickname: Literature seminar 
+  ref: literature 
+  module: "Foundations II: Earth System Research"
+  time:
+  room:
+  group:
+    - interdisciplinary
+  short: ""
+  description: "Scientific literature is a foundational aspect of the research landscape but can be challenging to navigate for students. Through a structured format and guided questions, students learn how to critically evaluate information being presented and to lead discussion (each student leads at least one session per semester). The literature is carefully selected to cover a broad range of topics and levels of complexity. Classic papers are paired with recent publications. In addition, students will learn how academic publishing works, the peer review process, reproducibility, and how to navigate the literature to identify papers that are most relevant to them."
+  evaluation: ""
+  semester: 1
+  administrator: warnock
+  instructors:
+    - warnock 
+  ects: 2.5 
+  campo: 
+  studon: 
+  thumbnail: "images/courses/thumbnails/interdisciplinary.png"
+  photos:
+  image:
+    title: "images/courses/big/climate_data.jpg"
+    caption: "Future projection of temperature change with the SSP585 scenario (DKRZ)"
+    caption_url: "https://www.dkrz.de/en/communication/climate-simulations/cmip6-en/the-ssp-scenarios?set_language=en"
+  form: "Block course on days spread in the first three weeks of the semester. "
+  type:
+    - seminar 
+
+- name: Earth System Discussion Group 
+  state: active
+  nickname: Discussion Group 
+  ref: discussion 
+  module: "Foundations II: Earth System Research"
+  time:
+  room:
+  group:
+    - interdisciplinary
+  short: ""
+  description: "In this seminar series, students will hear a range of talks, both from internal and external researchers, as well as invited speakers from non-academic organisations. This will be followed by structured group discussions, designed to enhance understanding. Students in semester three should also attend, and towards the end of the winter semester they will present the research they intend to pursue in semester four."
+  evaluation: ""
+  semester: 1
+  administrator: warnock
+  instructors:
+    - warnock 
+  ects: 2.5 
+  campo: 
+  studon: 
+  thumbnail: "images/courses/thumbnails/interdisciplinary.png"
+  photos:
+  image:
+    title: "images/courses/big/climate_data.jpg"
+    caption: "Future projection of temperature change with the SSP585 scenario (DKRZ)"
+    caption_url: "https://www.dkrz.de/en/communication/climate-simulations/cmip6-en/the-ssp-scenarios?set_language=en"
+  form: "Block course on days spread in the first three weeks of the semester. "
+  type:
+    - seminar 
+
+
+- name: Science and Society
+  state: active
+  nickname: Science and Society 
+  ref: society 
+  module: "Foundations III: Science, technology, and society"
+  time:
+  room:
+  group:
+    - interdisciplinary
+  short: ""
+  evaluation: ""
+  semester: 2
+  administrator: warnock
+  description: "This module examines science and technology within a historical and social context, and how scientific knowledge is transmitted and transformed, or not, into action. Students will explore the interplay between science and society, how scientific advances influence policies, while societal structures, in turn, shape the direction of scientific research. Through case studies and assignments, students will learn how established structures can impede interdisciplinary research and international collaboration. By integrating social science approaches alongside practical scientific training, this module empowers students to navigate and challenge traditional disciplinary boundaries."
+  instructors:
+    - warnock 
+  ects: 5 
+  campo: 
+  studon: 
+  thumbnail: "images/courses/thumbnails/interdisciplinary.png"
+  photos:
+  image:
+    title: "images/courses/big/climate_data.jpg"
+    caption: "Future projection of temperature change with the SSP585 scenario (DKRZ)"
+    caption_url: "https://www.dkrz.de/en/communication/climate-simulations/cmip6-en/the-ssp-scenarios?set_language=en"
+  form: "Block course on days spread in the first three weeks of the semester. "
+  type:
+    - seminar 
+
+- name: Earth Systems Data Science
+  state: active
+  nickname: Data Science
+  ref: data_science 
+  module: "Foundations IV: Data Science"
+  time:
+  room:
+  group:
+    - interdisciplinary
+  short: ""
+  evaluation: ""
+  semester: 2
+  administrator: warnock
+  description: "This course introduces the fundamentals of statistical hypothesis testing, with a focus on case studies relevant to Earth system science. We will cover probability theory, parameter estimation and uncertainty, frequentist and Bayesian inference, model adequacy, and discussions around the interpretation and communication of results. Students learn how to formulate and test their own hypotheses and apply this knowledge to reproduce (and potentially improve) published scientific results, gaining an awareness of reproducibility practices. "
+  instructors:
+    - warnock 
+  ects: 5 
+  campo: 
+  studon: 
+  thumbnail: "images/courses/thumbnails/interdisciplinary.png"
+  photos:
+  image:
+    title: "images/courses/big/climate_data.jpg"
+    caption: "Future projection of temperature change with the SSP585 scenario (DKRZ)"
+    caption_url: "https://www.dkrz.de/en/communication/climate-simulations/cmip6-en/the-ssp-scenarios?set_language=en"
+  form: "Block course on days spread in the first three weeks of the semester. "
+  type:
+    - seminar 
+
+- name: Research Project Design 
+  state: active
+  nickname: Research Project Design 
+  ref: design 
+  module: "Foundations V: Research project design"
+  time:
+  room:
+  group:
+    - interdisciplinary
+  short: ""
+  evaluation: ""
+  description: "In this course students bring together knowledge and skills gained from across the curriculum to develop a project proposal, in the style of a research grant, that will form the basis of their thesis. Through conceptualizing and designing their own project, students will gain experience going from overarching research questions to feasible research objectives. They will learn how to present their research ideas to appeal to a broader scientific audience, i.e., placing emphasis on the bigger scientific picture (emulating the practice of grant writing). Students will be introduced to project management tools and encouraged to develop ambitious but feasible projects. To develop more interdisciplinary projects, students can recruit two or more supervisors, including external experts. "
+  semester: 3 
+  administrator: warnock
+  instructors:
+    - warnock 
+  ects: 5 
+  campo: 
+  studon: 
+  thumbnail: "images/courses/thumbnails/interdisciplinary.png"
+  photos:
+  image:
+    title: "images/courses/big/climate_data.jpg"
+    caption: "Future projection of temperature change with the SSP585 scenario (DKRZ)"
+    caption_url: "https://www.dkrz.de/en/communication/climate-simulations/cmip6-en/the-ssp-scenarios?set_language=en"
+  form: "Block course on days spread in the first three weeks of the semester. "
+  type:
+    - seminar 
+
+- name: Research Internship 
+  state: active
+  nickname: Internship 
+  ref: internship 
+  module: "Foundations VI: Research internship"
+  time:
+  room:
+  group:
+    - interdisciplinary
+  short: ""
+  description: "Students will complete an internship (minimum four weeks) at a research institute or organization of their choice. The coordinator of the module, as well as course mentors (see sections 3.4 and 3.9), will support students in identifying a suitable option, considering student interests and taking advantage of our extensive collaborative network. Students are especially encouraged to seek opportunities beyond Bavaria and outside Germany. At the end, students must produce a written report summarising their experience."
+  evaluation: ""
+  semester: 3 
+  administrator: warnock
+  instructors:
+    - warnock
+  ects: 5 
+  campo: 
+  studon: 
+  thumbnail: "images/courses/thumbnails/interdisciplinary.png"
+  photos:
+  image:
+    title: "images/courses/big/climate_data.jpg"
+    caption: "Future projection of temperature change with the SSP585 scenario (DKRZ)"
+    caption_url: "https://www.dkrz.de/en/communication/climate-simulations/cmip6-en/the-ssp-scenarios?set_language=en"
+  form: "Block course on days spread in the first three weeks of the semester. "
+  type:
+    - internship 
