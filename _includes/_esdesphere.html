@@ -22,6 +22,9 @@ svg g .over {
 	}
 }
 
+#svg1{
+margin-bottom:40px;
+}
 </style>
 <svg
    width="100%"
@@ -291,6 +294,8 @@ function makeInvisibleSVG(x){
 }
 
 function switchDescription(where){
+	// get rid of basic placeholder for sure
+	makeInvisiblePara('blank-para');
 	//	find focal, change its visibility		 
 	let para = document.getElementById(where+'-para');
 	para.style.display='block';

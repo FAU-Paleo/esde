@@ -166,7 +166,12 @@ The domain knowledge is concentrated in modules that first focus on a specific a
 
 </div>
 
-<div class="large-8 medium-12 small-12 columns" markdown="1" id="atmo-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns" markdown="1" id="blank-para">
+
+*Select sphere to show coursework description*
+</div>
+
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="atmo-para" style="display:none">
 
 #### Atmosphere
 
@@ -174,20 +179,20 @@ The modules in this theme are designed to provide students with a comprehensive 
 
 </div>
 
-<div class="large-8 medium-12 small-12 columns" markdown="1" id="bio-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="bio-para" style="display:none">
 #### Biosphere
 
 The modules in this theme are designed to equip students with a comprehensive understanding of ecological and evolutionary processes, how we analyze and model these processes in deep time, and how we bring together evidence from the fossil, geological, and molecular records.
 
 </div>
-<div class="large-8 medium-12 small-12 columns" markdown="1" id="hydro-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="hydro-para" style="display:none">
 #### Hydrosphere
 
 The modules in this theme are designed to enable students to acquire knowledge of the hydrological cycle, including groundwater, water quality and quantity considering natural and anthropogenic processes, and how they interact with atmosphere, biosphere, and geosphere. Through these modules, students gain insights into data collected from the field, analytical and modeling techniques, chemical tools used in research fields related to the hydrosphere, such as hydrology, hydrogeology, hydrogeochemistry, and water resources management and modeling.
 
 </div>
 
-<div class="large-8 medium-8 small-12 columns" markdown="1" id="geo-para" style="display:none">
+<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="geo-para" style="display:none">
 #### Geosphere
 
 The modules in this theme are designed to enable students to acquire knowledge of global cycles and processes across the Earth's surface and interior. Through these modules, students gain insights into data collected from the field, analytical techniques, and chemical tools used in various research fields related to the geosphere, such as geodynamics, mineralogy, geochemistry, sedimentology, geophysics, and tectonics.
