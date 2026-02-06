@@ -1,0 +1,128 @@
+<style>
+svg .over {
+    fill: #ffffff00;
+    stroke: #9caed2;
+    stroke-width: 3px;
+}
+
+@media (hover: hover){
+    svg .over:hover {
+        fill: #daf4d5;
+        fill-opacity: 0.5;
+        stroke: #daf4d5;
+        stroke-width: 4px;
+        transition:0.3s;
+        cursor:pointer;
+    }
+
+    svg .over:not(:hover) {
+        transition:0.3s;
+    }
+
+}
+
+</style>
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100%"
+   height="100%"
+   viewBox="0 0 815.11603 582.336"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   sodipodi:docname="program.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.29512932"
+     inkscape:cx="826.75623"
+     inkscape:cy="1455.2943"
+     inkscape:current-layer="layer1" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(370.92468,242.44299)"><image
+       width="928.11603"
+       height="656.336"
+       preserveAspectRatio="none"
+       xlink:href="{{site.url}}{{site.baseurl}}/images/program/program.png"
+       id="image1"
+       x="-370.92468"
+       y="-242.44299" /><a href="#interdisciplinary-modules"><rect
+       style="fill-opacity:0.752941;stroke-width:0.252296;stroke-linecap:square;stroke-miterlimit:3.4;paint-order:markers fill stroke"
+       class="over"
+       id="interdisciplinary"
+       width="194.37206"
+       height="287.46021"
+       x="-286.37662"
+       y="-164.11624"
+       inkscape:label="interdisciplinary" /></a><a href="#fundamentals"><rect
+       style="fill-opacity:0.752941;stroke-width:0.196945;stroke-linecap:square;stroke-miterlimit:3.4;paint-order:markers fill stroke"
+       id="fundamental"
+       class="over"
+       width="392.41556"
+       height="86.763168"
+       x="-79.811844"
+       y="-164.03601"
+       inkscape:label="fundamental" /></a><a href="#elective-course-group-1"><rect
+       style="fill-opacity:0.752941;stroke-width:0.252;stroke-linecap:square;stroke-miterlimit:3.4;paint-order:markers fill stroke"
+       id="elective1"
+       class="over"
+       width="391.77612"
+       height="123.68282"
+       x="-79.444412"
+       y="-63.368214"
+       inkscape:label="elective1" /></a><a href="#elective-course-group-2"><rect
+       style="fill-opacity:0.752941;stroke-width:0.178969;stroke-linecap:square;stroke-miterlimit:3.4;paint-order:markers fill stroke"
+       id="elective2"
+       class="over"
+       width="391.84915"
+       height="62.370747"
+       x="-79.480927"
+       y="60.523998"
+       inkscape:label="elective2" /></a><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><rect
+       style="fill-opacity:0.752941;stroke-width:0.25972;stroke-linecap:square;stroke-miterlimit:3.4;paint-order:markers fill stroke"
+       id="thesis"
+       class="over"
+       width="598.21198"
+       height="86.040192"
+       x="-286.08298"
+       y="136.98788"
+       inkscape:label="thesis" /></a></g></svg>
+
+<script>
+  
+removeStrokeFill = function(x){
+    x.style.stroke='';
+    x.style.fill='';
+    x.style.fillOpacity='';
+    x.style.strokeWidth='';
+}
+  
+// removes the decoration on page load, which will be then controlled by class 
+window.onload =function(){
+    // remove the inkscape-junk of svg
+    let overlays = document.getElementsByClassName("over");
+    for (let item of overlays){
+        removeStrokeFill(item);
+    }
+    
+}
+</script>

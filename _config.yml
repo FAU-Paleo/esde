@@ -179,7 +179,7 @@ apple-touch-icon-120x120-precomposed : 'apple-icon-120x120.png'
 apple-touch-icon-114x114-precomposed : 'apple-icon-114x114.png'
 apple-touch-icon-76x76-precomposed   : 'apple-icon-76x76.png'
 apple-touch-icon-72x72-precomposed   : 'apple-icon-72x72.png'
-apple-touch-icon-precomposed         : 'apple-icon-precomposed.png'
+apple-touch-icon-precomposed         : 'apple-touch-icon.png'
 msapplication_tileimage              : 'ms-icon-144x144.png'               # Size 144x144
 msapplication_tilecolor              : '#fabb00'
 

@@ -50,24 +50,7 @@ The following table illustrates the distribution of coursework over the four sem
 
 <div class="row">
 
-<script>
-// highlight
-function navichange(im){
-	let navi = document.getElementById("programnavi");
-  navi.setAttribute("src", im)
-}
-</script>
-
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/update/program/program.png" usemap="#image-map" id="programnavi">
-<map name="image-map">
-    <area onmouseover="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/program_interdisciplinary.png')" onmouseout="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/program.png')" target="" alt="Interdisciplinary Modules" title="Interdisciplinary Modules" href="#a-interdisciplinary-modules" coords="157,44,557,732" shape="rect">
-    <area onmouseover="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/program_basics.png')"  onmouseout="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/program.png')" target="" alt="Fundamentals of Earth System Science" title="Fundamentals of Earth System Science" href="#fundamentals" coords="566,44,1356,336" shape="rect">
-    <area onmouseover="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/elective1.png')" onmouseout="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/program.png')" target="" alt="Elective 1" title="Elective 1" href="#elective-course-group-1" coords="568,345,1354,595" shape="rect">
-    <area onmouseover="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/elective2.png')" onmouseout="navichange('{{ site.url }}{{ site.baseurl }}/images/update/program/program.png')" target="" alt="Elective 2" title="Elective 2" href="#elective-course-group-2" coords="566,600,1358,732" shape="rect">
-</map>
-
-
+{% include _program.html %}
 
 </div>
 </div>
@@ -155,51 +138,6 @@ onmouseout="this.setAttribute('style', 'transform:translateY(0.0em);box-shadow: 
 # Earth System modules 
 
 The domain knowledge is concentrated in modules that first focus on a specific aspect, i.e. 'sphere' of the Earth System. As the program develops, the courses themselves become more interdisciplinary. 
-
-<div class="row">
-
-<div class="large-4 medium-12 small-12 columns">
-
-<!-- <img src="{{site.url}}{{site.baseurl}}/images/esdesphere/Logo%20Elite-Studiengang%20VER1_.png"> -->
-
-{% include _esdesphere.html %}
-
-</div>
-
-<div class="large-8 medium-12 small-12 columns" markdown="1" id="blank-para">
-
-*Select sphere to show coursework description*
-</div>
-
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="atmo-para" style="display:none">
-
-#### Atmosphere
-
-The modules in this theme are designed to provide students with a comprehensive understanding of atmospheric processes in both contemporary and deep time contexts. Courses cover the physical and chemical properties of the atmosphere, atmospheric dynamics, and the interactions between the atmosphere and other Earth systems. Students will also explore methods for projecting and approaches to reconstructing climate over different scales. 
-
-</div>
-
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="bio-para" style="display:none">
-#### Biosphere
-
-The modules in this theme are designed to equip students with a comprehensive understanding of ecological and evolutionary processes, how we analyze and model these processes in deep time, and how we bring together evidence from the fossil, geological, and molecular records.
-
-</div>
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="hydro-para" style="display:none">
-#### Hydrosphere
-
-The modules in this theme are designed to enable students to acquire knowledge of the hydrological cycle, including groundwater, water quality and quantity considering natural and anthropogenic processes, and how they interact with atmosphere, biosphere, and geosphere. Through these modules, students gain insights into data collected from the field, analytical and modeling techniques, chemical tools used in research fields related to the hydrosphere, such as hydrology, hydrogeology, hydrogeochemistry, and water resources management and modeling.
-
-</div>
-
-<div class="large-8 medium-12 small-12 columns sphere-para" markdown="1" id="geo-para" style="display:none">
-#### Geosphere
-
-The modules in this theme are designed to enable students to acquire knowledge of global cycles and processes across the Earth's surface and interior. Through these modules, students gain insights into data collected from the field, analytical techniques, and chemical tools used in various research fields related to the geosphere, such as geodynamics, mineralogy, geochemistry, sedimentology, geophysics, and tectonics.
-
-</div>
-
-</div>
 
 ### 1. Fundamentals  
 
