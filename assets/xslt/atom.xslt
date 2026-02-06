@@ -60,7 +60,7 @@
 
 	<link rel="icon" sizes="192x192" href="https://fau-paleo.github.io/esde/assets/img/android-icon-192x192.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://fau-paleo.github.io/esde/assets/img/apple-icon-180x180.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://fau-paleo.github.io/esde/assets/img/apple-touch-icon.png">
 
 	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://fau-paleo.github.io/esde/assets/img/apple-icon-152x152.png">
 
@@ -96,8 +96,8 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-			<a class="show-for-small-only" href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%"><img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px"></a>
-			<a class="show-for-medium-only" href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%"><img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px"></a>
+			<a  href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%;padding-left:10px"><img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px" id="homeimg"></a>
+			<!-- <a class="show-for-medium-only" href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%"><img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px"></a> -->
 
  
 
@@ -108,10 +108,7 @@
     <section class="top-bar-section">
 
       <ul class="left">
-		<li><a href="https://fau-paleo.github.io/esde/" style="border-radius:3%/6%">
-			<img src="https://fau-paleo.github.io/esde/assets/img/icon.png" style="height:50px">
-		 </a>
-		</li>
+		
 		<!--
 		<li><a href="https://www.nat.fau.eu/">
 		  <img src="/esde/images/logos/FAU_NatFak.svg" alt="Faculty of sciences" style="height:45px">
