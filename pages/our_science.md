@@ -25,23 +25,113 @@ On this page you can find the main research topics that instructors of the progr
 
 * * *
 
+<div class="row" style="background-color:#f8f8ff;padding:15px">
+
+<div class="columns large-8" markdown="1">
+#### The ecology of global change in space and time 
+([W. Kiessling](), [S. Teichert](), [A. Kocsis](https://palaeobiology.nat.fau.de/people/instructors/kocsis/))
+- Biodiversity dynamics and global-scale changes of the Earth System
+- The study of mass extinction events and climate change
+- Integration of processes at multiple time scales: from deep-time to Recent
+</div>
+
+<div class="columns large-4" markdown="1">
+![img]({{site.url}}{{site.baseurl}}/images/science/extinctions.png)
+<small>Extinction rate of marine organisms through the Phanerozoic. (Image by W. Kiessling and A. Kocsis) </small>
+</div>
+
+</div>
+
+
+
+<div class="row" style="padding:15px">
+
+<div class="columns large-8" markdown="1">
+#### Carbonate systems and sedimentology
+([A. Munnecke](), [W. Kiessling](), [S. Teichert]()
+- Carbonate rocks as archives of paleoenvironmental and paleoclimate change
+- The paleoecology of reef systems
+- Reconstruction of paleoenvironments
+</div>
+
+<div class="columns large-4" markdown="1">
+![img]({{site.url}}{{site.baseurl}}/images/science/cm_fragments.jpg)
+<small>Centimeter scale fragments of various organisms. (Photo by Axel Munnecke) </small>
+</div>
+
+</div>
+
+
+
+<div class="row" style="background-color:#f8f8ff;padding:15px">
+
+<div class="columns large-8" markdown="1">
+#### Phylogenetics
+([R. Warnock]())
+- Macroevolution and the relative contributions of biotic interactions (e.g., symbiosis, parasitism) and abiotic factors (e.g., climate) in driving macroevolutionary patterns
+- Mechanistic models of phylogeny
+</div>
+
+<div class="columns large-4" markdown="1">
+![img]({{site.url}}{{site.baseurl}}/images/science/fbd.png)
+<small>Trees inferred for a dataset of ceteacen fossil occurrences (Figure 4. from <a href="http://dx.doi.org/10.1098/rspb.2019.0685">Barido-Sottani et al. 2019</a>) </small>
+</div>
+
+</div>
+
+
+
+
+<div class="row" style="padding:15px">
+
+<div class="columns large-8" markdown="1">
+#### Paleobiology of marine vertebrates
+
+([A. Benites-Palomino]())
+- Ecology and evolution of Neogene marine vertebrates (Cetacea)
+- Geometric morphometrics
+</div>
+
+<div class="columns large-4" markdown="1">
+</div>
+
+</div>
+
+<div class="row" style="background-color:#f8f8ff;padding:15px">
+
+<div class="columns large-8" markdown="1">
+#### Forest Ecology
+
+([L. Hülsmann]())
+</div>
+
+<div class="columns large-4" markdown="1">
+</div>
+
+</div>
+
+
+<div class="row" style="padding:15px">
+
+<div class="columns large-8" markdown="1">
+#### Island biogeography 
+
+([M. Steinbauer]())
+</div>
+
+<div class="columns large-4" markdown="1">
+</div>
+
+</div>
+
+
+* * *
 
 ## Interdisciplinary research
 
 ### Philosophy of Science
 
 ### Interdisciplinary case studies
-
-
-
-
-### Sedimentary Geochemistry in Earth System Research 
-([M. Joachimski]({{instrulink}}/joachimski/))
-- Oxygen isotope geochemistry for paleotemperature estimates
-- Geochemical changes during biotic crises
-
-![img]({{site.url}}{{site.baseurl}}/images/science/permian.png)
-<small> The Permian-Triassic atmospheric CO<sub>2</sub> record (Figure 1. from <a href="https://doi.org/10.1130/G49714.1">Joachimski et al. 2022)</a></small>
 
 
 * * *
