@@ -35,8 +35,6 @@ During the [Research Project Implementation]({{site.baseurl}}/program/courses/rp
 </div>
 
 <div class ="small-3 medium-3 large-3 columns">
-<img src="{{ site.url }}{{ site.baseurl }}/images/misc/archaeo_slice.png" style="border-radius:2%">
-<small style="font-style:italic">Archaeopteryx lithographica</small>
 </div>
 </div>
 
