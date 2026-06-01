@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 subheadline: ""
-title: "Program Outlines"
+title: "Program Overview"
 teaser: ""
 header:
   image_fullwidth: "images/headers/many_fossils.png"
@@ -16,16 +16,17 @@ breadcrumb: true
 <div class="row">
 <div class="large-7 medium-6 columns" markdown="1">
 
+The <span class="veryhighlight">Earth System Dynamics and Evolution</span> master's program takes place over 2 years and is made up of 4 semesters. During the first 3 semesters (year 1 and half of year 2), students will take [regular courses]({{site.url}}/{{site.baseurl}}/program/courses/). The final (4th) semester is dedicated to the [Masters thesis]({{site.url}}/{{site.baseurl}}/program/courses/#master-thesis). Regular courses include interdisciplinary modules, discipline-specific foundational courses and more advanced elective courses, including advanced data analytical, modelling, laboratory or field courses. Find out more about individual courses [here]({{site.baseurl}}/program/courses/). 
+
+Students who complete the program will earn a '**MSc. in Earth System Dynamics and Evolution**'. The degree and the acquired knowledge opens up a wide range of potential career paths - primarily in the academic/scientific sector. 
+
 {% comment %}
-The <span class="veryhighlight">Earth System Dynamics and Evolution</span> master's program takes place over 2 years and is made up of 4 semesters. During the first 3 semesters (year 1 and half of year 2), students will take [regular courses]({{site.url}}/{{site.baseurl}}/courses/). The final (4th) semester is dedicated to the [Masters thesis]({{site.url}}/{{site.baseurl}}/highlights/#master-thesis). These [regular courses]({{site.url}}/{{site.baseurl}}/courses/) include interdisciplinary core modules, discipline-specific foundational courses and more advanced elective courses, that include advanced data analytical, modelling, laboratory or field courses. 
+
+The <span class="veryhighlight">Earth System Dynamics and Evolution</span> master's program takes place over 2 years and is made up of 4 semesters. During the first 3 semesters (year 1 and half of year 2), students will take regular courses. The final (4th) semester is dedicated to the Masters thesis. These regular courses include interdisciplinary core modules, discipline-specific foundational courses and more advanced elective courses, that include advanced data analytical, modelling, laboratory or field courses. 
 
 Students who complete the program will earn a '**MSc. in Earth System Dynamics and Evolution**'. The degree and the acquired knowledge opens up a wide range of [potential career paths]({{site.url}}/{{site.baseurl}}/program/perspectives/) - primarily in the academic/scientific sector. 
 
 {% endcomment %}
-
-The <span class="veryhighlight">Earth System Dynamics and Evolution</span> master's program takes place over 2 years and is made up of 4 semesters. During the first 3 semesters (year 1 and half of year 2), students will take regular courses. The final (4th) semester is dedicated to the Masters thesis. These regular courses include interdisciplinary core modules, discipline-specific foundational courses and more advanced elective courses, that include advanced data analytical, modelling, laboratory or field courses. 
-
-Students who complete the program will earn a '**MSc. in Earth System Dynamics and Evolution**'. The degree and the acquired knowledge opens up a wide range of potential career paths - primarily in the academic/scientific sector. 
 
 </div>
 
@@ -55,7 +56,7 @@ Students who complete the program will earn a '**MSc. in Earth System Dynamics a
 
 <div class="large-8 medium-12 small-12 columns" markdown="1" id="blank-para">
 
-*Select sphere to show course theme description*
+*Select sphere to show course theme description.*
 
 </div>
 
@@ -118,3 +119,5 @@ The modules in this theme are designed to enable students to acquire knowledge o
 {% comment %}
 <p><a class="button tiny radius" href="{{site.baseurl}}/program/highlights/"> Highlights ›</a></p>
 {% endcomment %}
+
+<p><a class="button tiny radius" href="{{site.baseurl}}/program/courses/"> Courses ›</a></p>
