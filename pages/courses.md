@@ -319,11 +319,7 @@ Broad level exemplary questions requiring a cross system approach that students 
 
 * * * 
 
-{%comment%}
-
 <p><a class="button tiny radius" href="{{site.baseurl}}/program/perspectives/"> Career perspectives ›</a></p>
-
-{% endcomment %}
 
 <script>
 imageMapResize();

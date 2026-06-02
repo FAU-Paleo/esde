@@ -17,8 +17,8 @@
   #   url: "/program/highlights/"
   - title: "Courses"
     url: "/program/courses/"
-  # - title: "Career Perspectives"
-  #   url: "/program/perspectives/"
+  - title: "Career Perspectives"
+    url: "/program/perspectives/"
 
 - title: "Admissions"
   url: "/admission/"

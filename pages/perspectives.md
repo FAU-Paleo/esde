@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-subheadline: "Where can a Masters in Paleobiology take me?"
+subheadline: "Where can a Masters in Earth systems take me?"
 title: "Career Perspectives"
 teaser: ""
 header: 
@@ -9,6 +9,35 @@ header:
 permalink: "/program/perspectives/"
 breadcrumb: true
 ---
+
+Students will gain fundamental knowledge of Earth system science, with strong competencies in modeling, project management, combined with an advanced understanding of the complexities of empirical data and an awareness of related social issues (e.g., ethics, gender), communication, science policy and diplomacy. 
+
+The strong emphasis on research will make students ideally suited to pursue a scientific career. A large proportion of students are expected to go on to pursue doctorates. However, the skills acquired as part of this program will equip students with a wider range of professional opportunities. There is an increasing demand for diverse roles in the environmental sector, including within industry and non-profit organizations (NGOs or IOs). Some examples are listed below.
+
+### Careers in Earth system science
+
+- Academic research
+  - Universities
+  - Research institutes
+- Industry 
+  - Hydropower and geothermal energy sectors
+  - Risk assessor for insurance companies
+  - (Environmental) Data science
+- Government
+  - Environmental authorities
+  - Science policy interface
+- Nonprofit/private sector
+  - Policy advisor/analyst
+  - Sustainability officer/advisor
+  - NGO Program Manager
+  - Science communication and journalism
+  - IPCC, IPBES, Conservation paleobiology
+
+### Training opportunities during your Master's
+
+To give students the broadest perspective on employment opportunities, the program will include annual career panels, with speakers from a range of sectors. Guest lecturers (both in and outside academia) will be invited to share knowledge about diverse career paths and promote research and employment opportunities. Interactions with guest lecturers and internship opportunities will help students develop their network. Funding is also available for students to attend international conference, to develop their presentation skills and networks. In addition, students will receive input and feedback on CVs, cover letters, and applications to maximize their chances of success on the job market. Students can receive further career support through the [FAU Graduate Centre](https://www.fau.eu/research/research-careers/early-career-support-and-graduate-center/).
+
+{% comment %}
 
 ### Academic research (PhD)
 For a career in academia, you need to obtain a postgraduate (PhD) degree. In Germany, PhD positions take 3-4 years and are commonly funded by the [Deutsche Forschungsgemeinschaft](http://www.dfg.de/en/index.jsp) (for students of any nationality) or [DAAD](https://www.daad.de/en/) for German applicants going abroad or foreign applicants looking for a PhD position in Germany. Most of our graduates continue their research in PhD programs around the world. Our alumni have been admitted to PhD programs in the USA, UK, Poland, Netherlands ... and in Germany.
@@ -69,10 +98,17 @@ You can read interviews with widely defined paleobiologists on the following pag
 - [Paleoportal](http://paleoportal.org/index.php?globalnav=paleopeople)
 - [Society of Vertebrate Paleontology](http://vertpaleo.org/Society-News/Paleoprofiles.aspx)
 - [Palaeocast](http://www.palaeocast.com/)
+
+{% endcomment %}
+
 {% comment %}
 #### Learn from our graduates!
 Get to know our [graduate students]({% link pages/graduates.md %}) and learn about their experiences!
 
 {% endcomment %}
 
+{% comment %}
+
 <p><a class="button tiny radius" href="{{site.baseurl}}/people/instructors/"> Instructors ›</a></p>
+
+{% endcomment %}
