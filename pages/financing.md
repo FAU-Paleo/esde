@@ -43,7 +43,13 @@ Generally speaking, Germany is not considered expensive when compared to the ave
 
 ### Public transport
 
+FAU students are eligible for a disounted "[Deutschlandticket](https://www.fau.eu/education/student-life/semester-ticket/)". The ticket costs €43 per month and allows you to travel on all local and regional transport throughout Germany.
+
+{% comment %}
+
 FAU students are eligible for a "[basic ticket](https://www.fau.eu/education/student-life/semester-ticket/)" in collaboration with the local public transport company, VGN. The fee for this ticket is included in the semester fee, which are paid at the beginning of each semester (€144 for 2023). There is an option to add an additional ticket to cover additional parts of the VGN network - for more information see the FAU's information page on the [semester ticket](https://www.fau.eu/education/student-life/semester-ticket/).
+
+{% endcomment %}
 
 ### Accommodation
 

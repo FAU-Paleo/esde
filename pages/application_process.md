@@ -108,8 +108,7 @@ style="border-radius:10%;border:1px solid #ddd">
 
 ## Step 2: Online interview
 
-Once your application has been processed and you are eligible to be admitted, you will be invited to an interview. All details will be communicated to you via email. Applicants who have completed a Bachelors (BSc) in Geosciences and who have achieved a grade that translates to a German grade 2.5 or higher may not need to participate in an interview.
-
+Once your application has been processed and you are eligible to be admitted, you will be invited to an interview. All details will be communicated to you via email.
 
 <div class="row">
 <div class="medium-4 large-4 columns" markdown="1">
