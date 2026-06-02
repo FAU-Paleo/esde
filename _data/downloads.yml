@@ -7,7 +7,7 @@ info:
     remote: "https://www.fau.de/files/2019/12/Checklist-international.pdf"
   - ref: "online_application_guide"
     name: "Online Application guide"
-    local: "downloads/Application_guidelines_2026_v1.pdf"
+    local: "downloads/Application_guidelines_2026.pdf"
   - ref: "module_catalogue_2022"
     name: "Module Catalogue (WiSe 2022/2023)"
     local: "downloads/Modulkataloge-Master-Geowissenschaften-ab-WiSe-22_23.pdf"

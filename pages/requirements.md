@@ -57,7 +57,7 @@ Translations of certain documents are necessary if they are not already in Engli
 - **University entrance qualification** (i.e. school leaving certificate), issued by your secondary school if you have completed your secondary level education in Germany. International applicants will follow separate instructions, as outlined in our application guidance document.
 - **Transcript of records**, issued by your university, and accompanied by translated version(s) if necessary.
 - **Degree certificate** if available, and translated version(s) if necessary. In case that you are in your final year and have not yet completed your Bachelor's, this document can be uploaded once it becomes available to you.
-- **Proof of proficiency in English** (if applicable). {% comment %} Please see the step-by-step [application guide](https://palaeobiology.nat.fau.de/downloads/2024_online_application_guide.pdf) for further details. {% endcomment %} 
+- **Proof of proficiency in English** (if applicable).
 - **Curriculum Vitae (CV)** (max. 2 pages, in English), outlining your qualifications and experience.
 - **Motivation letter** (max. 700 words, in English) outlining your motivations for applying for this program and how it aligns with your career aspirations.
 
