@@ -120,4 +120,6 @@ The modules in this theme are designed to enable students to acquire knowledge o
 <p><a class="button tiny radius" href="{{site.baseurl}}/program/highlights/"> Highlights ›</a></p>
 {% endcomment %}
 
+* * *
+
 <p><a class="button tiny radius" href="{{site.baseurl}}/program/courses/"> Courses ›</a></p>

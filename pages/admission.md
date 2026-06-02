@@ -9,11 +9,25 @@ permalink: "/admission/"
 breadcrumb: true
 ---
 
+{%comment%}
+
 We understand that applying to a university program is usually not a straightforward task. For this reason, we have tried to gather all relevant information here in a step-by-step fashion. If you have any questions that you cannot find an answer to, do not hesitate to  [get in touch with with us!]({{ site.url }}{{ site.baseurl }}/contacts/#direct-assistance)
+
+{%endcomment%}
+
+Applying to the program involves multiple important steps. For this reason, we have gathered most relevant information here in a step-by-step fashion. If you have any questions that you cannot find an answer to, do not hesitate to  [get in touch with with us!]({{ site.url }}{{ site.baseurl }}/contacts/#direct-assistance).
 
 * * *
 
 # About the applications
+
+{%comment%}
+
+Here you can find out whether you have the necessary qualifications and what documents you need to have to come and participate in our study program.
+
+{%endcomment%}
+
+Here you can find out more about the necessary qualifications and what documents are required, as well as information about the application process, and financing your studies.
 
 <div class="row">
 
@@ -26,18 +40,8 @@ Official requirements
 </a>
 </div>
 
-{% comment %}
 <div class="large-4 medium-4 columns">
-<a href="financing.md">
-<div>
-<img src="{{ site.url }}{{ site.baseurl }}/images/misc/euros.jpg">
-Financing your studies in Germany
-</div>
-</a>
-</div>
-
-<div class="large-4 medium-4 columns">
-<a href="application_process.md">
+<a href="process/">
 <div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/misc/application.png">
 The application process
@@ -45,12 +49,16 @@ The application process
 </a>
 </div>
 
-{% endcomment %}
+<div class="large-4 medium-4 columns">
+<a href="financing/">
+<div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/misc/euros.jpg">
+Financing your studies in Germany
+</div>
+</a>
 </div>
 
-Here you can find out whether you have the necessary qualifications and what documents you need to have to come and participate in our study program.
-
-
+</div>
 
 * * *
 # General information for prospective students
@@ -83,3 +91,7 @@ General information for international applicants:
 </div>
 
 </div>
+
+* * * 
+
+<p><a class="button tiny radius" href="{{site.baseurl}}/admission/requirements/"> Requirements ›</a></p>

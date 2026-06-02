@@ -129,3 +129,7 @@ Applicants will be notified of the outcome of their application by mid-August. F
 </div>
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
+
+* * *
+
+<p><a class="button tiny radius" href="{{site.baseurl}}/admission/financing/"> Financing your studies ›</a></p>

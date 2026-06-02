@@ -79,3 +79,7 @@ Students arriving from outside of the EU will require a visa to study in Germany
 
 </div>
 </div>
+
+* * * 
+
+<p><a class="button tiny radius" href="{{site.baseurl}}/admission/process/"> Application process ›</a></p>
